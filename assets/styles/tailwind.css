@@ -4,4 +4,5 @@
 
 * {
   @apply transition duration-[250ms] ease-in-out;
+  @apply border border-red-500;
 }
