@@ -9,7 +9,22 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
+    fontFamily: {
+      sans: [
+        "Montserrat",
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji",
+      ],
+    },
     extend: {
+      fontFamily: {
+        display: "Grandstander",
+      },
       colors: {
         brand: {
           darkest: "#324930",
