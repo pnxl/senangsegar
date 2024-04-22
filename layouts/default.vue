@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen min-w-full bg-brand-lightest text-brand-darker dark:bg-brand-darkest dark:text-brand-light"
+    class="min-h-screen md:min-w-full md:flex md:justify-center text-sm bg-brand-lightest text-brand-darker dark:bg-neutral-900 dark:text-brand-light"
   >
     <slot />
   </div>
