@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 * {
-  @apply transition duration-[250ms] ease-in-out border border-red-500;
+  @apply transition duration-[250ms] ease-in-out;
 }
