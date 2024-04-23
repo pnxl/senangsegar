@@ -2,7 +2,7 @@
   <div class="min-h-screen min-w-full flex flex-col gap-y-4">
     <div class="flex flex-col gap-y-8">
       <h1
-        class="font-display text-3xl mt-16 sm:text-4xl md:text-5xl lg:text-6xl font-medium w-1/2 dark:text-brand-light"
+        class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium w-1/2 dark:text-brand-light"
       >
         Melayani pengalaman yang menyenangkan.
       </h1>
