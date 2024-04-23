@@ -1,6 +1,6 @@
 <template>
   <div
-    class="md:flex p-4 rounded-full sticky justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
+    class="md:flex p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
   >
     <h1
       class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker"
