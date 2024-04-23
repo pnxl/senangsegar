@@ -2,7 +2,7 @@
   <main
     class="bg-neutral-100 dark:bg-neutral-900 flex flex-col gap-y-8 sm:gap-y-12 md:gap-y-16 md:py-16 sm:py-12 py-8"
   >
-    <div
+    <header
       :class="{ sticking }"
       ref="header"
       class="md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 md:flex p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
@@ -32,7 +32,7 @@
           <p>Menu</p>
         </nuxt-link>
       </div>
-    </div>
+    </header>
     <div
       ref="target"
       class="md:px-24 lg:px-32 2xl:px-48 sm:px-12 px-8 min-h-screen md:min-w-full md:flex md:justify-center text-brand-darker dark:text-brand-light"
