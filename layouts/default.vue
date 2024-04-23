@@ -62,6 +62,6 @@ onMounted(() => {
 
 <style>
 .sticking {
-  @apply sticky top-0 rounded-t-none border-t-0;
+  @apply sticky top-0 rounded-t-none border-t-0 mx-0;
 }
 </style>
