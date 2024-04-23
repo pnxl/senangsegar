@@ -1,6 +1,6 @@
 <template>
   <main
-    class="bg-neutral-200 dark:bg-neutral-900 flex flex-col gap-y-8 sm:gap-y-12 md:gap-y-16 md:py-16 sm:py-12 py-8"
+    class="bg-neutral-100 dark:bg-neutral-900 flex flex-col gap-y-8 sm:gap-y-12 md:gap-y-16 md:py-16 sm:py-12 py-8"
   >
     <div class="fixed w-screen md:px-24 lg:px-32 2xl:px-48 sm:px-12 px-8">
       <Header />
