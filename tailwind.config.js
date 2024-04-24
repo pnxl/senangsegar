@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
-        "Montserrat",
+        "Montserrat Variable",
         "ui-sans-serif",
         "system-ui",
         "sans-serif",
