@@ -39,7 +39,7 @@
       >
         <slot />
       </div>
-      <div
+      <footer
         class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 p-4"
       >
         <div
@@ -58,7 +58,7 @@
             <p>Lihat Menu</p>
           </nuxt-link>
         </div>
-      </div>
+      </footer>
     </div>
   </main>
 </template>
