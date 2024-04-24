@@ -43,7 +43,7 @@
         class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 pt-4 px-24"
       >
         <div
-          class="dark:bg-brand-darkest bg-brand-lighter rounded-2xl p-8 mb-16 -mt-24 flex justify-between"
+          class="dark:bg-brand-darkest bg-brand-lighter rounded-[2.5rem] p-8 mb-16 -mt-24 flex justify-between"
         >
           <h2
             class="font-medium text-2xl w-1/2 dark:text-brand-lightest text-brand-darkest"
