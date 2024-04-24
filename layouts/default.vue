@@ -1,11 +1,11 @@
 <template>
   <main
-    class="bg-neutral-100 dark:bg-neutral-900 flex flex-col gap-y-8 sm:gap-y-12 md:gap-y-16 md:pt-16 sm:pt-12 pt-8"
+    class="bg-neutral-100 dark:bg-neutral-900 flex flex-col gap-y-8 sm:gap-y-12 md:gap-y-16"
   >
     <header
       :class="{ sticking }"
       ref="header"
-      class="md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 md:flex p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
+      class="sticky md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 md:flex p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
     >
       <h1
         class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker"
@@ -33,7 +33,7 @@
         </nuxt-link>
       </div>
     </header>
-    <div ref="target">
+    <div ref="target" class="md:mt-16 sm:mt-12 mt-8">
       <div
         class="md:px-24 lg:px-32 2xl:px-48 sm:px-12 px-8 min-h-screen md:min-w-full md:flex md:justify-center text-brand-darker dark:text-brand-light"
       >
@@ -133,7 +133,7 @@ onMounted(() => {
     ([entry]) => {
       sticking.value = entry.isIntersecting;
     },
-    { threshold: 0.783 }
+    { threshold: 0.51 }
   );
 
   observer.observe(target.value as Element);
@@ -142,6 +142,6 @@ onMounted(() => {
 
 <style>
 .sticking {
-  @apply sticky top-0 rounded-t-none border-t-0 mx-0;
+  @apply top-0 rounded-t-none border-t-0 mx-0;
 }
 </style>
