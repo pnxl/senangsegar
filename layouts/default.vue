@@ -40,23 +40,60 @@
         <slot />
       </div>
       <footer
-        class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 p-4"
+        class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 pt-4 px-24"
       >
         <div
-          class="dark:bg-brand-darkest bg-brand-lighter rounded-2xl p-8 mx-24 -mt-24 flex justify-between"
+          class="dark:bg-brand-darkest bg-brand-lighter rounded-2xl p-8 mb-16 -mt-24 flex justify-between"
         >
-          <h1
+          <h2
             class="font-medium text-2xl w-1/2 dark:text-brand-lightest text-brand-darkest"
           >
             Entah makanan mengenyangkan atau hidangan penutup yang dingin, kami
             siap melayani Anda.
-          </h1>
+          </h2>
           <nuxt-link
             to="/menu"
             class="dark:bg-brand-darker bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 w-fit h-fit my-auto rounded-full font-medium"
           >
             <p>Lihat Menu</p>
           </nuxt-link>
+        </div>
+        <div class="flex justify-between">
+          <div>
+            <h1
+              class="font-display dark:text-brand-light text-brand-dark text-2xl"
+            >
+              Senang Segar
+            </h1>
+          </div>
+          <div class="gap-y-2 flex flex-col">
+            <h3
+              class="text-lg font-semibold dark:text-brand-dark text-brand-light"
+            >
+              Halaman Ini
+            </h3>
+            <div
+              class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
+            >
+              <nuxt-link class="/#about">About</nuxt-link>
+              <nuxt-link class="/#faq">FAQ</nuxt-link>
+              <nuxt-link class="/">Menu</nuxt-link>
+            </div>
+          </div>
+          <div class="gap-y-2 flex flex-col">
+            <h3
+              class="text-lg font-semibold dark:text-brand-dark text-brand-light"
+            >
+              Alamat
+            </h3>
+            <div
+              class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
+            >
+              <p>Sekolah Dian Harapan</p>
+              <p>Jl. Bedugul No. 1</p>
+              <p>Daan Mogot Baru, Kalideres</p>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
