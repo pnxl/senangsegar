@@ -75,9 +75,23 @@
             <div
               class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
             >
-              <nuxt-link class="/#about">About</nuxt-link>
-              <nuxt-link class="/#faq">FAQ</nuxt-link>
-              <nuxt-link class="/">Menu</nuxt-link>
+              <nuxt-link to="/#tentang-kita" class="hover:underline"
+                >Tentang Kita</nuxt-link
+              >
+              <nuxt-link to="/#faq" class="hover:underline">FAQ</nuxt-link>
+              <nuxt-link to="/menu" class="hover:underline">Menu</nuxt-link>
+            </div>
+          </div>
+          <div class="gap-y-2 flex flex-col">
+            <h3
+              class="text-lg font-semibold dark:text-brand-dark text-brand-light"
+            >
+              Halaman Lain
+            </h3>
+            <div
+              class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
+            >
+              <nuxt-link to="/merek" class="hover:underline">Merek</nuxt-link>
             </div>
           </div>
           <div class="gap-y-2 flex flex-col">
@@ -86,13 +100,21 @@
             >
               Alamat
             </h3>
-            <div
-              class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
+            <a
+              href="https://maps.app.goo.gl/RDJjLqVUpjtgFtha6"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex flex-col gap-y-2 group dark:text-brand-lightest text-brand-darkest"
             >
-              <p>Sekolah Dian Harapan</p>
-              <p>Jl. Bedugul No. 1</p>
-              <p>Daan Mogot Baru, Kalideres</p>
-            </div>
+              <p class="group-hover:underline">SDH Daan Mogot</p>
+              <p
+                class="text-sm dark:text-brand-lighter group-hover:underline text-brand-darker -mt-1"
+              >
+                (Di depan Gedung D)
+              </p>
+              <p class="group-hover:underline">Jl. Bedugul No. 1</p>
+              <p class="group-hover:underline">Daan Mogot Baru, Kalideres</p>
+            </a>
           </div>
         </div>
       </footer>
