@@ -4,7 +4,7 @@
       <h1
         class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium w-1/2 dark:text-brand-light"
       >
-        Melayani pengalaman yang menyenangkan.
+        Hidangan yang mengenyangkan dan menyenangkan.
       </h1>
       <p class="text-lg w-1/2 dark:text-brand-dark">
         Kami menyediakan makanan lezat beraroma, dibuat hanya dengan bahan-bahan
