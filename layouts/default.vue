@@ -1,6 +1,6 @@
 <template>
   <main
-    class="bg-neutral-100 dark:bg-neutral-900 flex flex-col gap-y-8 sm:gap-y-12 md:gap-y-16 md:py-16 sm:py-12 py-8"
+    class="bg-neutral-100 dark:bg-neutral-900 flex flex-col gap-y-8 sm:gap-y-12 md:gap-y-16 md:pt-16 sm:pt-12 pt-8"
   >
     <header
       :class="{ sticking }"
@@ -27,17 +27,38 @@
         </div>
         <nuxt-link
           to="/menu"
-          class="dark:bg-brand-darkest bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-dark hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
+          class="dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
         >
           <p>Menu</p>
         </nuxt-link>
       </div>
     </header>
-    <div
-      ref="target"
-      class="md:px-24 lg:px-32 2xl:px-48 sm:px-12 px-8 min-h-screen md:min-w-full md:flex md:justify-center text-brand-darker dark:text-brand-light"
-    >
-      <slot />
+    <div ref="target">
+      <div
+        class="md:px-24 lg:px-32 2xl:px-48 sm:px-12 px-8 min-h-screen md:min-w-full md:flex md:justify-center text-brand-darker dark:text-brand-light"
+      >
+        <slot />
+      </div>
+      <div
+        class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 p-4"
+      >
+        <div
+          class="dark:bg-brand-darkest bg-brand-lighter rounded-2xl p-8 mx-24 -mt-24 flex justify-between"
+        >
+          <h1
+            class="font-medium text-2xl w-1/2 dark:text-brand-lightest text-brand-darkest"
+          >
+            Entah makanan mengenyangkan atau hidangan penutup yang dingin, kami
+            siap melayani Anda.
+          </h1>
+          <nuxt-link
+            to="/menu"
+            class="dark:bg-brand-darker bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 w-fit h-fit my-auto rounded-full font-medium"
+          >
+            <p>Lihat Menu</p>
+          </nuxt-link>
+        </div>
+      </div>
     </div>
   </main>
 </template>
