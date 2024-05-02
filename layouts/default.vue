@@ -15,12 +15,12 @@
       <div class="flex gap-x-8 my-auto text-base">
         <div class="my-auto flex gap-x-8">
           <nuxt-link
-            to="#tentang-kita"
+            to="/#tentang-kita"
             class="dark:hover:text-brand-lighter hover:text-brand-darkest font-medium"
             >Tentang Kita</nuxt-link
           >
           <nuxt-link
-            to="#faq"
+            to="/#faq"
             class="dark:hover:text-brand-lighter hover:text-brand-darkest font-medium"
             >FAQ</nuxt-link
           >
