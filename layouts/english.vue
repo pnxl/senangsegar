@@ -15,9 +15,9 @@
       <div class="flex gap-x-8 my-auto text-base">
         <div class="my-auto flex gap-x-8">
           <nuxt-link
-            to="/#tentang-kita"
+            to="/#about-us"
             class="dark:hover:text-brand-lighter hover:text-brand-darkest font-medium"
-            >Tentang Kita</nuxt-link
+            >About Us</nuxt-link
           >
           <nuxt-link
             to="/#faq"
@@ -48,14 +48,14 @@
           <h2
             class="font-medium text-2xl w-1/2 dark:text-brand-lightest text-brand-darkest"
           >
-            Entah makanan mengenyangkan atau hidangan penutup yang dingin, kami
-            siap melayani Anda.
+            Whether it's a filling meal or a cold dessert, we're ready to serve
+            you.
           </h2>
           <nuxt-link
             to="/menu"
             class="dark:bg-brand-darker bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 w-fit h-fit my-auto rounded-full font-medium"
           >
-            <p>Lihat Menu</p>
+            <p>See the menu</p>
           </nuxt-link>
         </div>
         <div class="flex justify-between">
@@ -66,15 +66,15 @@
               Senang Segar
             </h1>
             <div class="flex gap-x-2">
-              <Icon name="flagpack:id" class="text-lg my-auto opacity-75" />
-              <p class="my-auto dark:text-gray-400">Bahasa Indonesia</p>
+              <Icon name="flagpack:gb-ukm" class="text-lg my-auto opacity-75" />
+              <p class="my-auto dark:text-gray-400">English (International)</p>
             </div>
             <div class="flex gap-x-2">
               <nuxt-link
-                to="/en/"
+                to="/id/"
                 class="my-auto text-sm hover:underline dark:text-gray-500"
               >
-                Prefer English instead?
+                Mau pakai Bahasa Indonesia aja?
               </nuxt-link>
             </div>
           </div>
@@ -82,13 +82,13 @@
             <h3
               class="text-lg font-semibold dark:text-brand-dark text-brand-light"
             >
-              Halaman Ini
+              This Page
             </h3>
             <div
               class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
             >
-              <nuxt-link to="/#tentang-kita" class="hover:underline"
-                >Tentang Kita</nuxt-link
+              <nuxt-link to="/#about-us" class="hover:underline"
+                >About Us</nuxt-link
               >
               <nuxt-link to="/#faq" class="hover:underline">FAQ</nuxt-link>
               <nuxt-link to="/menu" class="hover:underline">Menu</nuxt-link>
@@ -98,19 +98,21 @@
             <h3
               class="text-lg font-semibold dark:text-brand-dark text-brand-light"
             >
-              Halaman Lain
+              Other Pages
             </h3>
             <div
               class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
             >
-              <nuxt-link to="/merek" class="hover:underline">Merek</nuxt-link>
+              <nuxt-link to="/en/branding" class="hover:underline"
+                >Branding</nuxt-link
+              >
             </div>
           </div>
           <div class="gap-y-2 flex flex-col">
             <h3
               class="text-lg font-semibold dark:text-brand-dark text-brand-light"
             >
-              Alamat
+              Address
             </h3>
             <a
               href="https://maps.app.goo.gl/RDJjLqVUpjtgFtha6"
@@ -122,7 +124,7 @@
               <p
                 class="text-sm dark:text-brand-lighter group-hover:underline text-brand-darker -mt-1"
               >
-                (Di depan Gedung D)
+                (In front of Building D)
               </p>
               <p class="group-hover:underline">Jl. Bedugul No. 1</p>
               <p class="group-hover:underline">Daan Mogot Baru, Kalideres</p>
