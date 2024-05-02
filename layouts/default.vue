@@ -59,12 +59,48 @@
           </nuxt-link>
         </div>
         <div class="flex justify-between">
-          <div>
+          <div class="flex flex-col gap-y-2">
             <h1
               class="font-display dark:text-brand-light text-brand-dark text-2xl"
             >
               Senang Segar
             </h1>
+            <div
+              v-if="$route.name?.toString().slice(0, 2) === 'en'"
+              class="flex flex-col gap-y-2"
+            >
+              <div class="flex gap-x-2">
+                <Icon
+                  name="flagpack:gb-ukm"
+                  class="text-lg my-auto opacity-75"
+                />
+                <p class="my-auto dark:text-gray-400">
+                  English (International)
+                </p>
+              </div>
+              <div class="flex gap-x-2">
+                <nuxt-link
+                  to="/id/"
+                  class="my-auto text-sm hover:underline dark:text-gray-500"
+                >
+                  Mau pakai Bahasa Indonesia aja?
+                </nuxt-link>
+              </div>
+            </div>
+            <div v-else class="flex flex-col gap-y-2">
+              <div class="flex gap-x-2">
+                <Icon name="flagpack:id" class="text-lg my-auto opacity-75" />
+                <p class="my-auto dark:text-gray-400">Bahasa Indonesia</p>
+              </div>
+              <div class="flex gap-x-2">
+                <nuxt-link
+                  to="/en/"
+                  class="my-auto text-sm hover:underline dark:text-gray-500"
+                >
+                  Prefer English instead?
+                </nuxt-link>
+              </div>
+            </div>
           </div>
           <div class="gap-y-2 flex flex-col">
             <h3
@@ -122,7 +158,7 @@
   </main>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
 import { onMounted, ref } from "vue";
 
 const target = ref<Element>();
@@ -138,6 +174,12 @@ onMounted(() => {
 
   observer.observe(target.value as Element);
 });
+
+export default {
+  mounted() {
+    const route = this.$route.name;
+  },
+};
 </script>
 
 <style>
