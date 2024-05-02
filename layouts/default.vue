@@ -67,12 +67,12 @@
             </h1>
             <div class="flex gap-x-2">
               <Icon name="flagpack:id" class="text-lg my-auto opacity-75" />
-              <p class="my-auto dark:text-gray-400">Bahasa Indonesia</p>
+              <p class="my-auto dark:text-neutral-400">Bahasa Indonesia</p>
             </div>
             <div class="flex gap-x-2">
               <nuxt-link
                 to="/en/"
-                class="my-auto text-sm hover:underline dark:text-gray-500"
+                class="my-auto text-sm hover:underline dark:text-neutral-500"
               >
                 Prefer English instead?
               </nuxt-link>

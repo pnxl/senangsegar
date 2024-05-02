@@ -67,12 +67,14 @@
             </h1>
             <div class="flex gap-x-2">
               <Icon name="flagpack:gb-ukm" class="text-lg my-auto opacity-75" />
-              <p class="my-auto dark:text-gray-400">English (International)</p>
+              <p class="my-auto dark:text-neutral-400">
+                English (International)
+              </p>
             </div>
             <div class="flex gap-x-2">
               <nuxt-link
                 to="/id/"
-                class="my-auto text-sm hover:underline dark:text-gray-500"
+                class="my-auto text-sm hover:underline dark:text-neutral-500"
               >
                 Mau pakai Bahasa Indonesia aja?
               </nuxt-link>
