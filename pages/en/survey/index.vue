@@ -4,18 +4,18 @@
       <h1
         class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium md:w-1/2 dark:text-brand-light"
       >
-        Selamat datang di survei kami!
+        Welcome to our survey!
       </h1>
       <p class="text-lg md:w-1/2 dark:text-brand-dark">
-        Survei ini akan menentukan menu, harga, dan faktor penting tentang
-        bisnis kami. Jangan khawatir, ini tidak akan memakan waktu lama - paling
-        lama lima menit - kami janji!
+        This survey will decide our menus, prices, and crucial aspects about our
+        business. Don't worry, it won't take long - five minutes tops - we
+        promise!
       </p>
       <nuxt-link
-        to="/id/survey/about-you"
+        to="/en/survey/about-you"
         class="dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
       >
-        <p>Mulai Survei</p>
+        <p>Start Survey</p>
       </nuxt-link>
     </div>
   </div>

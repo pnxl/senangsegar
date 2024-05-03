@@ -8,4 +8,8 @@ export default defineNuxtRouteMiddleware((to, from) => {
       return navigateTo("/id/");
     }
   }
+
+  if (to.path === "/id/survey/products-interest") {
+    return navigateTo("/id/survey/products-interest/smoothies");
+  }
 });

@@ -26,4 +26,30 @@
   opacity: 0;
   scale: 0.95;
 }
+
+.swipe-enter-active {
+  animation: acrossIn 0.15s ease-out both;
+}
+
+.swipe-leave-active {
+  animation: acrossOut 0.15s ease-in both;
+}
+@keyframes acrossIn {
+  0% {
+    transform: translate3d(-2%, 0, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes acrossOut {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(2%, 0, 0);
+    opacity: 0;
+  }
+}
 </style>
