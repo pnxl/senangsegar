@@ -5,29 +5,27 @@
     <header
       :class="{ sticking }"
       ref="header"
-      class="sticky md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 md:flex p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
+      class="sticky md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 flex md:flex-row flex-col p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
     >
-      <h1
-        class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker"
+      <div class="flex flex-row justify-center md:justify-start mb-4 md:mb-0">
+        <img src="@/assets/logo.svg" class="h-8 my-auto" />
+        <h1
+          class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker"
+        >
+          Senang Segar
+        </h1>
+      </div>
+      <div
+        class="flex flex-row gap-x-8 md:my-auto text-base justify-center md:justify-start"
       >
-        Senang Segar
-      </h1>
-      <div class="flex gap-x-8 my-auto text-base">
-        <div class="my-auto flex gap-x-8">
-          <nuxt-link
-            to="/#tentang-kita"
-            class="dark:hover:text-brand-lighter hover:text-brand-darkest font-medium"
-            >Tentang Kita</nuxt-link
-          >
-          <nuxt-link
-            to="/#faq"
-            class="dark:hover:text-brand-lighter hover:text-brand-darkest font-medium"
-            >FAQ</nuxt-link
-          >
-        </div>
         <nuxt-link
-          to="/menu"
-          class="dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
+          to="/id/#about-us"
+          class="dark:hover:text-brand-lighter my-auto hover:text-brand-darkest font-medium"
+          >Tentang Kita</nuxt-link
+        >
+        <nuxt-link
+          to="/id/menu"
+          class="my-auto dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
         >
           <p>Menu</p>
         </nuxt-link>
@@ -40,25 +38,27 @@
         <slot />
       </div>
       <footer
-        class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 pt-4 px-24"
+        class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 pt-4 md:px-24 sm:px-16 px-8"
       >
         <div
-          class="dark:bg-brand-darkest bg-brand-lighter rounded-[2.5rem] p-8 mb-16 -mt-24 flex justify-between"
+          class="dark:bg-brand-darkest bg-brand-lighter rounded-[2.5rem] p-8 mb-16 -mt-24 flex flex-col sm:flex-row gap-y-4 sm:gap-y-0 justify-between"
         >
           <h2
-            class="font-medium text-2xl w-1/2 dark:text-brand-lightest text-brand-darkest"
+            class="font-medium text-xl sm:text-2xl sm:w-1/2 dark:text-brand-lightest text-brand-darkest"
           >
             Entah makanan mengenyangkan atau hidangan penutup yang dingin, kami
             siap melayani Anda.
           </h2>
           <nuxt-link
             to="/menu"
-            class="dark:bg-brand-darker bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 w-fit h-fit my-auto rounded-full font-medium"
+            class="dark:bg-brand-darker bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 text-center sm:text-left sm:w-fit h-fit my-auto rounded-full font-medium"
           >
             <p>Lihat Menu</p>
           </nuxt-link>
         </div>
-        <div class="flex justify-between">
+        <div
+          class="flex flex-col md:flex-row gap-y-8 md:gap-y-0 justify-between"
+        >
           <div class="flex flex-col gap-y-2">
             <h1
               class="font-display dark:text-brand-light text-brand-dark text-2xl"
@@ -82,7 +82,7 @@
             <h3
               class="text-lg font-semibold dark:text-brand-dark text-brand-light"
             >
-              Halaman Ini
+              Halaman
             </h3>
             <div
               class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
@@ -90,19 +90,7 @@
               <nuxt-link to="/#tentang-kita" class="hover:underline"
                 >Tentang Kita</nuxt-link
               >
-              <nuxt-link to="/#faq" class="hover:underline">FAQ</nuxt-link>
               <nuxt-link to="/menu" class="hover:underline">Menu</nuxt-link>
-            </div>
-          </div>
-          <div class="gap-y-2 flex flex-col">
-            <h3
-              class="text-lg font-semibold dark:text-brand-dark text-brand-light"
-            >
-              Halaman Lain
-            </h3>
-            <div
-              class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
-            >
               <nuxt-link to="/merek" class="hover:underline">Merek</nuxt-link>
             </div>
           </div>

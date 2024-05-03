@@ -2,11 +2,11 @@
   <div class="min-h-screen min-w-full flex flex-col gap-y-4">
     <div class="flex flex-col gap-y-8">
       <h1
-        class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium w-1/2 dark:text-brand-light"
+        class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium lg:w-1/2 dark:text-brand-light"
       >
         Serving dishes that make people and their tummies happy.
       </h1>
-      <p class="text-lg w-1/2 dark:text-brand-dark">
+      <p class="text-lg md:w-1/2 dark:text-brand-dark">
         We provide delicious, flavorful food, made with only fresh ingredients.
       </p>
       <nuxt-link
