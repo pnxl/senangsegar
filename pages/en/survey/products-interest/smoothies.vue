@@ -6,7 +6,7 @@
         class="dark:text-neutral-500 group font-medium flex gap-x-1"
       >
         <Icon name="ph:arrow-left-bold" class="my-auto text-lg" />
-        <p class="group-hover:underline">Kembali</p>
+        <p class="group-hover:underline">Back</p>
       </nuxt-link>
       <h1
         class="font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium md:w-1/2 dark:text-brand-light"
@@ -57,6 +57,16 @@
           </label>
           <label class="flex gap-x-4">
             <input
+              v-model="banana"
+              type="checkbox"
+              name="banana"
+              value="Pisang"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+            />
+            <i class="my-auto">Bananas</i>
+          </label>
+          <label class="flex gap-x-4">
+            <input
               v-model="orange"
               type="checkbox"
               name="orange"
@@ -77,13 +87,13 @@
           </label>
           <label class="flex gap-x-4">
             <input
-              v-model="banana"
+              v-model="strawberry"
               type="checkbox"
-              name="banana"
-              value="Pisang"
+              name="Stroberi"
+              value="Stroberi"
               class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
             />
-            <i class="my-auto">Bananas</i>
+            <i class="my-auto">Strawberries</i>
           </label>
           <label class="flex gap-x-4">
             <input
@@ -94,16 +104,6 @@
               class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
             />
             <i class="my-auto">Watermelons</i>
-          </label>
-          <label class="flex gap-x-4">
-            <input
-              v-model="strawberry"
-              type="checkbox"
-              name="Stroberi"
-              value="Stroberi"
-              class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
-            />
-            <i class="my-auto">Strawberries</i>
           </label>
         </div>
       </div>
@@ -126,16 +126,6 @@
         <div class="flex flex-col gap-y-2">
           <label class="flex gap-x-4">
             <input
-              v-model="yakult"
-              type="checkbox"
-              name="yakult"
-              value="Yakult"
-              class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
-            />
-            <i class="my-auto">Yakult</i>
-          </label>
-          <label class="flex gap-x-4">
-            <input
               v-model="sparklingWater"
               type="checkbox"
               name="sparklingWater"
@@ -153,6 +143,16 @@
               class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
             />
             <i class="my-auto">Syrup</i>
+            <label class="flex gap-x-4">
+              <input
+                v-model="yakult"
+                type="checkbox"
+                name="yakult"
+                value="Yakult"
+                class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              />
+              <i class="my-auto">Yakult</i>
+            </label>
           </label>
         </div>
       </div>
@@ -227,7 +227,6 @@
         </div>
       </div>
       <button
-        to="/id/survey/about-you"
         @click="
           useCookie('survey_juiceInterest').value = interest;
           useCookie('survey_juiceWhyNot').value = whyNot;
@@ -238,18 +237,30 @@
             String(banana).replace('true', 'Pisang'),
             String(watermelon).replace('true', 'Semangka'),
             String(strawberry).replace('true', 'Stroberi'),
-          ].join(', ');
+          ]
+            .join(', ')
+            .replaceAll('false, ', '')
+            .replaceAll('false', '')
+            .replaceAll(', ', '');
 
           useCookie('survey_juiceIngredients').value = [
             String(yakult).replace('true', 'Yakult'),
             String(sparklingWater).replace('true', 'Air Soda'),
             String(syrup).replace('true', 'Sirup'),
-          ].join(', ');
+          ]
+            .join(', ')
+            .replaceAll('false, ', '')
+            .replaceAll('false', '')
+            .replaceAll(', ', '');
 
           useCookie('survey_juiceToppings').value = [
             String(fruitSlices).replace('true', 'Potongan Buah'),
             String(whippedCream).replace('true', 'Whipped Cream'),
-          ].join(', ');
+          ]
+            .join(', ')
+            .replaceAll('false, ', '')
+            .replaceAll('false', '')
+            .replaceAll(', ', '');
 
           useCookie('survey_juiceSuggestion').value = ingredientSuggestion;
 
@@ -275,12 +286,6 @@
 </template>
 
 <script lang="ts">
-import { onMounted } from "vue";
-
-onMounted(() => {
-  useCookie("language").value = "id";
-});
-
 definePageMeta({
   pageTransition: {
     name: "swipe",

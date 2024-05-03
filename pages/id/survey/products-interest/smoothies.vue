@@ -228,7 +228,6 @@
         </div>
       </div>
       <button
-        to="/id/survey/about-you"
         @click="
           useCookie('survey_juiceInterest').value = interest;
           useCookie('survey_juiceWhyNot').value = whyNot;
@@ -239,18 +238,30 @@
             String(banana).replace('true', 'Pisang'),
             String(watermelon).replace('true', 'Semangka'),
             String(strawberry).replace('true', 'Stroberi'),
-          ].join(', ');
+          ]
+            .join(', ')
+            .replaceAll('false, ', '')
+            .replaceAll('false', '')
+            .replaceAll(', ', '');
 
           useCookie('survey_juiceIngredients').value = [
             String(yakult).replace('true', 'Yakult'),
             String(sparklingWater).replace('true', 'Air Soda'),
             String(syrup).replace('true', 'Sirup'),
-          ].join(', ');
+          ]
+            .join(', ')
+            .replaceAll('false, ', '')
+            .replaceAll('false', '')
+            .replaceAll(', ', '');
 
           useCookie('survey_juiceToppings').value = [
             String(fruitSlices).replace('true', 'Potongan Buah'),
             String(whippedCream).replace('true', 'Whipped Cream'),
-          ].join(', ');
+          ]
+            .join(', ')
+            .replaceAll('false, ', '')
+            .replaceAll('false', '')
+            .replaceAll(', ', '');
 
           useCookie('survey_juiceSuggestion').value = ingredientSuggestion;
 
@@ -276,12 +287,6 @@
 </template>
 
 <script lang="ts">
-import { onMounted } from "vue";
-
-onMounted(() => {
-  useCookie("language").value = "id";
-});
-
 definePageMeta({
   pageTransition: {
     name: "swipe",

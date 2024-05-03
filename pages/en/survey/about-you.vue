@@ -196,12 +196,6 @@
 </template>
 
 <script lang="ts">
-import { onMounted } from "vue";
-
-onMounted(() => {
-  useCookie("language").value = "id";
-});
-
 definePageMeta({
   pageTransition: {
     name: "swipe",
