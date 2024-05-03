@@ -12,4 +12,8 @@ export default defineNuxtRouteMiddleware((to, from) => {
   if (to.path === "/id/survey/products-interest") {
     return navigateTo("/id/survey/products-interest/smoothies");
   }
+
+  if (to.path === "/en/survey/products-interest") {
+    return navigateTo("/en/survey/products-interest/smoothies");
+  }
 });
