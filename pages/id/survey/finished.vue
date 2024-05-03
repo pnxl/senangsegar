@@ -1,12 +1,12 @@
 <template>
-  <div class="min-h-screen min-w-full flex flex-col gap-y-4">
+  <div class="min-w-full flex flex-row gap-x-8 justify-between">
     <div class="flex flex-col gap-y-8">
       <h1
-        class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium md:w-1/2 dark:text-brand-light"
+        class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium md:w-3/4 dark:text-brand-light"
       >
         Kamu sudah selesai!
       </h1>
-      <p class="text-lg md:w-1/2 dark:text-brand-dark">
+      <p class="text-lg md:w-3/4 dark:text-brand-dark">
         Terima kasih telah meluangkan waktu untuk mengisi formulir ini. Hasil
         dari ini survei ini akan menentukan menu, harga, dan faktor penting
         tentang bisnis kami.
@@ -17,6 +17,9 @@
       >
         <p>Kembali Ke Beranda</p>
       </nuxt-link>
+    </div>
+    <div>
+      <img src="@/assets/logo.png" class="w-96 hidden sm:block" />
     </div>
   </div>
 </template>
