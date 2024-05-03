@@ -8,7 +8,7 @@
       class="sticky md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 flex md:flex-row flex-col p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
     >
       <div class="flex flex-row justify-center md:justify-start mb-4 md:mb-0">
-        <img src="@/assets/logo.svg" class="h-8 my-auto" />
+        <img src="@/assets/branding/logo.svg" class="h-8 my-auto" />
         <h1
           class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker"
         >

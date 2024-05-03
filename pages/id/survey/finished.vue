@@ -19,7 +19,7 @@
       </nuxt-link>
     </div>
     <div>
-      <img src="@/assets/logo.png" class="w-96 hidden sm:block" />
+      <img src="@/assets/branding/logo.png" class="w-96 hidden sm:block" />
     </div>
   </div>
 </template>
