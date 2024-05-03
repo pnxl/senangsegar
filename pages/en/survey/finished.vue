@@ -2,11 +2,11 @@
   <div class="min-w-full flex flex-row gap-x-8 justify-between">
     <div class="flex flex-col gap-y-8">
       <h1
-        class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium md:w-1/2 dark:text-brand-light"
+        class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium md:w-3/4 dark:text-brand-light"
       >
         You're done!
       </h1>
-      <p class="text-lg md:w-1/2 dark:text-brand-dark">
+      <p class="text-lg md:w-3/4 dark:text-brand-dark">
         Thank you for taking the time to fill out this form. The results of this
         survey will decide our menus, prices, and crucial aspects about our
         business.
