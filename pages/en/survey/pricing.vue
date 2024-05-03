@@ -158,7 +158,7 @@
           useCookie('survey_smoothiePrice').value = smoothiePrice;
           useCookie('survey_esPrice').value = esPrice;
 
-          navigateTo('/id/survey/products-interest/es-campur');
+          navigateTo('/en/survey/finished');
         "
         v-if="smoothiePrice !== '' && esPrice !== ''"
         class="dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
