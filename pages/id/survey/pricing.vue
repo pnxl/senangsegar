@@ -21,8 +21,8 @@
       </h1>
       <div class="flex flex-col gap-y-4">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
-          Menurut Anda, berapa harga yang pas untuk satu jus atau smoothie
-          (dengan dua buah dan tanpa tambahan apapun)?
+          Menurut Anda, berapa harga yang pas untuk satu smoothie (dengan dua
+          buah dan tanpa tambahan apapun)?
         </p>
         <div
           class="grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 w-fit gap-x-6 md:gap-y-3 gap-y-5 lg:gap-y-0"
@@ -90,6 +90,76 @@
         </div>
       </div>
       <div class="flex flex-col gap-y-4" v-if="smoothiePrice !== ''">
+        <p class="text-lg md:w-1/2 dark:text-brand-dark">
+          Menurut Anda, berapa harga yang pas untuk satu soda berasa buah (tanpa
+          topping apapun)?
+        </p>
+        <div
+          class="grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 w-fit gap-x-6 md:gap-y-3 gap-y-5 lg:gap-y-0"
+        >
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 7.500"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
+            />
+            <i>Rp 7.500</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 9.000"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
+            />
+            <i>Rp 9.000</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 10.500"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
+            />
+            <i>Rp 10.500</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 12.000"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
+            />
+            <i>Rp 12.000</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 13.500"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
+            />
+            <i>Rp 13.500</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 15.000"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
+            />
+            <i>Rp 15.000</i>
+          </label>
+        </div>
+      </div>
+      <div class="flex flex-col gap-y-4" v-if="sodaPrice !== ''">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           Menurut Anda, berapa harga yang pas untuk satu porsi Es Campur (tanpa
           topping apapun)?
@@ -162,17 +232,25 @@
       <button
         @click="
           useCookie('survey_smoothiePrice').value = smoothiePrice;
+          useCookie('survey_sodaPrice').value = sodaPrice;
           useCookie('survey_esPrice').value = esPrice;
+
+          useCookie('survey_finished').value = 'true';
 
           submit(
             String(useCookie('survey_grade').value),
-            String(useCookie('survey_juiceInterest').value),
-            String(useCookie('survey_juiceWhyNot').value),
-            String(useCookie('survey_juiceFruits').value),
-            String(useCookie('survey_juiceIngredients').value),
-            String(useCookie('survey_juiceToppings').value),
-            String(useCookie('survey_juiceSuggestion').value),
+            String(useCookie('survey_smoothieInterest').value),
+            String(useCookie('survey_smoothieWhyNot').value),
+            String(useCookie('survey_smoothieFruits').value),
+            String(useCookie('survey_smoothieToppings').value),
+            String(useCookie('survey_smoothieSuggestion').value),
             String(smoothiePrice),
+            String(useCookie('survey_sodaInterest').value),
+            String(useCookie('survey_sodaWhyNot').value),
+            String(useCookie('survey_sodaFruits').value),
+            String(useCookie('survey_sodaToppings').value),
+            String(useCookie('survey_sodaSuggestion').value),
+            String(sodaPrice),
             String(useCookie('survey_esInterest').value),
             String(useCookie('survey_esWhyNot').value),
             String(useCookie('survey_esToppings').value),
@@ -204,6 +282,7 @@ export default {
     return {
       smoothiePrice: "",
       esPrice: "",
+      sodaPrice: "",
     };
   },
 };
@@ -224,13 +303,18 @@ const supabase = createClient(
 );
 async function submit(
   ans_class: string,
-  ans_juiceInterest: string,
-  ans_juiceWhyNot: string,
-  ans_juiceFruits: string,
-  ans_juiceIngredients: string,
-  ans_juiceToppings: string,
-  ans_juiceSuggestions: string,
-  ans_juicePrice: string,
+  ans_smoothieInterest: string,
+  ans_smoothieWhyNot: string,
+  ans_smoothieFruits: string,
+  ans_smoothieToppings: string,
+  ans_smoothieSuggestions: string,
+  ans_smoothiePrice: string,
+  ans_sodaInterest: string,
+  ans_sodaWhyNot: string,
+  ans_sodaFruits: string,
+  ans_sodaToppings: string,
+  ans_sodaSuggestions: string,
+  ans_sodaPrice: string,
   ans_campurInterest: string,
   ans_campurWhyNot: string,
   ans_campurToppings: string,
@@ -241,18 +325,23 @@ async function submit(
     .from("surveyResults")
     .insert({
       class: ans_class,
-      juiceInterest: ans_juiceInterest,
-      juiceWhyNot: ans_juiceWhyNot,
-      juiceFruits: ans_juiceFruits,
-      juiceIngredients: ans_juiceIngredients,
-      juiceToppings: ans_juiceToppings,
-      juiceSuggestions: ans_juiceSuggestions,
-      juicePrice: ans_juicePrice,
+      smoothieInterest: ans_smoothieInterest,
+      smoothieWhyNot: ans_smoothieWhyNot,
+      smoothieFruits: ans_smoothieFruits,
+      smoothieToppings: ans_smoothieToppings,
+      smoothieSuggestions: ans_smoothieSuggestions,
+      smoothiePrice: ans_smoothiePrice,
+      sodaWhyNot: ans_sodaWhyNot,
+      sodaFruits: ans_sodaFruits,
+      sodaToppings: ans_sodaToppings,
+      sodaSuggestions: ans_sodaSuggestions,
+      sodaPrice: ans_sodaPrice,
       campurInterest: ans_campurInterest,
       campurWhyNot: ans_campurWhyNot,
       campurToppings: ans_campurToppings,
       campurSuggestions: ans_campurSuggestions,
       campurPrice: ans_campurPrice,
+      sodaInterest: ans_sodaInterest,
     })
     .then((r: any) => console.log(r));
 }

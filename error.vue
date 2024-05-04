@@ -30,12 +30,22 @@
                 ran to an error!
               </p>
             </div>
-            <nuxt-link
-              to="/id/"
-              class="dark:bg-brand-darkest bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light/50 hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
+            <div
+              class="flex md:flex-row md:gap-x-4 flex-col gap-y-4 md:gap-y-0"
             >
-              <p>Kembali Ke Beranda</p>
-            </nuxt-link>
+              <nuxt-link
+                to="/id/"
+                class="dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
+              >
+                <p>Kembali Ke Beranda</p>
+              </nuxt-link>
+              <nuxt-link
+                to="/en/"
+                class="dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
+              >
+                <p>Go Back Home</p>
+              </nuxt-link>
+            </div>
           </div>
           <div>
             <img src="@/assets/branding/sad.png" class="w-96 hidden sm:block" />

@@ -18,7 +18,7 @@
       </h1>
       <div class="flex flex-col gap-y-4">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
-          Are you interested in purchasing a juice or smoothie?
+          Are you interested in purchasing a smoothie?
         </p>
         <div class="flex flex-col gap-y-2">
           <label class="flex gap-x-4">
@@ -45,7 +45,8 @@
       </div>
       <div class="flex flex-col gap-y-4" v-if="interest === 'Iya'">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
-          From the following options, what fruits would you make into a juice?
+          From the following options, what fruits would you make into a
+          smoothie?
         </p>
         <div class="flex flex-col gap-y-2">
           <label class="flex gap-x-4">
@@ -123,55 +124,6 @@
         "
       >
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
-          From the following options, what ingredients would you mix with a
-          smoothie?
-        </p>
-        <div class="flex flex-col gap-y-2">
-          <label class="flex gap-x-4">
-            <input
-              v-model="sparklingWater"
-              type="checkbox"
-              name="sparklingWater"
-              value="Air Soda"
-              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 rounded-full appearance-none"
-            />
-            <i class="my-auto">Sparkling Water</i>
-          </label>
-          <label class="flex gap-x-4">
-            <input
-              v-model="syrup"
-              type="checkbox"
-              name="syrup"
-              value="Sirup"
-              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 rounded-full appearance-none"
-            />
-            <i class="my-auto">Syrup</i>
-            <label class="flex gap-x-4">
-              <input
-                v-model="yakult"
-                type="checkbox"
-                name="yakult"
-                value="Yakult"
-                class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 rounded-full appearance-none"
-              />
-              <i class="my-auto">Yakult</i>
-            </label>
-          </label>
-        </div>
-      </div>
-      <div
-        class="flex flex-col gap-y-4"
-        v-if="
-          (apple !== false ||
-            orange !== false ||
-            pineapple !== false ||
-            banana !== false ||
-            watermelon !== false ||
-            strawberry !== false) &&
-          interest === 'Iya'
-        "
-      >
-        <p class="text-lg md:w-1/2 dark:text-brand-dark">
           From the following options, what toppings would you put on a smoothie?
         </p>
         <div class="flex flex-col gap-y-2">
@@ -184,6 +136,16 @@
               class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 rounded-full appearance-none"
             />
             <i class="my-auto">Chopped Fruit</i>
+          </label>
+          <label class="flex gap-x-4">
+            <input
+              v-model="iceCream"
+              type="checkbox"
+              name="iceCream"
+              value="Es Krim"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 rounded-full appearance-none"
+            />
+            <i class="my-auto">Ice Cream</i>
           </label>
           <label class="flex gap-x-4">
             <input
@@ -216,7 +178,7 @@
       <div class="flex flex-col gap-y-4" v-else-if="interest === 'Tidak'">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           If you can, please provide a short reason why you aren't interested in
-          purchasing a juice or smoothie.
+          purchasing a smoothie.
         </p>
         <div class="flex flex-col gap-y-2">
           <label class="flex gap-x-4">
@@ -231,9 +193,9 @@
       </div>
       <button
         @click="
-          useCookie('survey_juiceInterest').value = interest;
-          useCookie('survey_juiceWhyNot').value = whyNot;
-          useCookie('survey_juiceFruits').value = [
+          useCookie('survey_smoothieInterest').value = interest;
+          useCookie('survey_smoothieWhyNot').value = whyNot;
+          useCookie('survey_smoothieFruits').value = [
             String(apple).replace('true', 'Apel'),
             String(orange).replace('true', 'Jeruk'),
             String(pineapple).replace('true', 'Nanas'),
@@ -246,17 +208,8 @@
             .replaceAll('false', '')
             .replaceAll(', ', '');
 
-          useCookie('survey_juiceIngredients').value = [
-            String(yakult).replace('true', 'Yakult'),
-            String(sparklingWater).replace('true', 'Air Soda'),
-            String(syrup).replace('true', 'Sirup'),
-          ]
-            .join(', ')
-            .replaceAll('false, ', '')
-            .replaceAll('false', '')
-            .replaceAll(', ', '');
-
-          useCookie('survey_juiceToppings').value = [
+          useCookie('survey_smoothieToppings').value = [
+            String(iceCream).replace('true', 'Es Krim'),
             String(fruitSlices).replace('true', 'Potongan Buah'),
             String(whippedCream).replace('true', 'Whipped Cream'),
           ]
@@ -265,9 +218,9 @@
             .replaceAll('false', '')
             .replaceAll(', ', '');
 
-          useCookie('survey_juiceSuggestion').value = ingredientSuggestion;
+          useCookie('survey_smoothieSuggestion').value = ingredientSuggestion;
 
-          navigateTo('/en/survey/products-interest/es-campur');
+          navigateTo('/en/survey/products-interest/fruit-soda');
         "
         v-if="
           interest === 'Tidak' ||
@@ -307,10 +260,8 @@ export default {
       pineapple: false,
       strawberry: false,
       watermelon: false,
-      yakult: false,
-      sparklingWater: false,
-      syrup: false,
       fruitSlices: false,
+      iceCream: false,
       whippedCream: false,
       ingredientSuggestion: "",
     };

@@ -3,13 +3,12 @@
     <div class="flex flex-col gap-y-8">
       <button
         @click="
-          useCookie('survey_juiceInterest').value = null;
-          useCookie('survey_juiceWhyNot').value = null;
-          useCookie('survey_juiceFruits').value = null;
-          useCookie('survey_juiceIngredients').value = null;
-          useCookie('survey_juiceToppings').value = null;
-          useCookie('survey_juiceSuggestion').value = null;
-          navigateTo('/en/survey/products-interest/smoothies');
+          useCookie('survey_sodaInterest').value = null;
+          useCookie('survey_sodaWhyNot').value = null;
+          useCookie('survey_sodaFruits').value = null;
+          useCookie('survey_sodaToppings').value = null;
+          useCookie('survey_sodaSuggestion').value = null;
+          navigateTo('/en/survey/products-interest/fruit-soda');
         "
         class="dark:text-neutral-500 group font-medium flex gap-x-1"
       >
@@ -225,8 +224,8 @@ export default {
 </script>
 
 <script setup lang="ts">
-if (!useCookie("survey_juiceInterest").value) {
-  navigateTo("/en/survey/products-interest/smoothies");
+if (!useCookie("survey_sodaInterest").value) {
+  navigateTo("/en/survey/products-interest/fruit-soda");
 } else if (useCookie("survey_finished").value) {
   navigateTo("/id/survey/finished");
 }

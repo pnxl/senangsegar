@@ -162,25 +162,31 @@
       <button
         @click="
           useCookie('survey_smoothiePrice').value = smoothiePrice;
+          useCookie('survey_sodaPrice').value = sodaPrice;
           useCookie('survey_esPrice').value = esPrice;
+
+          useCookie('survey_finished').value = 'true';
 
           submit(
             String(useCookie('survey_grade').value),
-            String(useCookie('survey_juiceInterest').value),
-            String(useCookie('survey_juiceWhyNot').value),
-            String(useCookie('survey_juiceFruits').value),
-            String(useCookie('survey_juiceIngredients').value),
-            String(useCookie('survey_juiceToppings').value),
-            String(useCookie('survey_juiceSuggestion').value),
+            String(useCookie('survey_smoothieInterest').value),
+            String(useCookie('survey_smoothieWhyNot').value),
+            String(useCookie('survey_smoothieFruits').value),
+            String(useCookie('survey_smoothieToppings').value),
+            String(useCookie('survey_smoothieSuggestion').value),
             String(smoothiePrice),
+            String(useCookie('survey_sodaInterest').value),
+            String(useCookie('survey_sodaWhyNot').value),
+            String(useCookie('survey_sodaFruits').value),
+            String(useCookie('survey_sodaToppings').value),
+            String(useCookie('survey_sodaSuggestion').value),
+            String(sodaPrice),
             String(useCookie('survey_esInterest').value),
             String(useCookie('survey_esWhyNot').value),
             String(useCookie('survey_esToppings').value),
             String(useCookie('survey_esSuggestion').value),
             String(esPrice)
           );
-
-          useCookie('survey_finished').value = 'true';
 
           navigateTo('/en/survey/finished');
         "
@@ -206,6 +212,7 @@ export default {
     return {
       smoothiePrice: "",
       esPrice: "",
+      sodaPrice: "",
     };
   },
 };
@@ -215,7 +222,7 @@ export default {
 import { createClient } from "@supabase/supabase-js";
 
 if (!useCookie("survey_esInterest").value) {
-  navigateTo("/en/survey/products-interest/es-campur");
+  navigateTo("/id/survey/products-interest/es-campur");
 } else if (useCookie("survey_finished").value) {
   navigateTo("/id/survey/finished");
 }
@@ -226,13 +233,18 @@ const supabase = createClient(
 );
 async function submit(
   ans_class: string,
-  ans_juiceInterest: string,
-  ans_juiceWhyNot: string,
-  ans_juiceFruits: string,
-  ans_juiceIngredients: string,
-  ans_juiceToppings: string,
-  ans_juiceSuggestions: string,
-  ans_juicePrice: string,
+  ans_smoothieInterest: string,
+  ans_smoothieWhyNot: string,
+  ans_smoothieFruits: string,
+  ans_smoothieToppings: string,
+  ans_smoothieSuggestions: string,
+  ans_smoothiePrice: string,
+  ans_sodaInterest: string,
+  ans_sodaWhyNot: string,
+  ans_sodaFruits: string,
+  ans_sodaToppings: string,
+  ans_sodaSuggestions: string,
+  ans_sodaPrice: string,
   ans_campurInterest: string,
   ans_campurWhyNot: string,
   ans_campurToppings: string,
@@ -243,18 +255,23 @@ async function submit(
     .from("surveyResults")
     .insert({
       class: ans_class,
-      juiceInterest: ans_juiceInterest,
-      juiceWhyNot: ans_juiceWhyNot,
-      juiceFruits: ans_juiceFruits,
-      juiceIngredients: ans_juiceIngredients,
-      juiceToppings: ans_juiceToppings,
-      juiceSuggestions: ans_juiceSuggestions,
-      juicePrice: ans_juicePrice,
+      smoothieInterest: ans_smoothieInterest,
+      smoothieWhyNot: ans_smoothieWhyNot,
+      smoothieFruits: ans_smoothieFruits,
+      smoothieToppings: ans_smoothieToppings,
+      smoothieSuggestions: ans_smoothieSuggestions,
+      smoothiePrice: ans_smoothiePrice,
+      sodaWhyNot: ans_sodaWhyNot,
+      sodaFruits: ans_sodaFruits,
+      sodaToppings: ans_sodaToppings,
+      sodaSuggestions: ans_sodaSuggestions,
+      sodaPrice: ans_sodaPrice,
       campurInterest: ans_campurInterest,
       campurWhyNot: ans_campurWhyNot,
       campurToppings: ans_campurToppings,
       campurSuggestions: ans_campurSuggestions,
       campurPrice: ans_campurPrice,
+      sodaInterest: ans_sodaInterest,
     })
     .then((r: any) => console.log(r));
 }
