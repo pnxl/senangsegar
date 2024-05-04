@@ -14,10 +14,6 @@ export default defineNuxtConfig({
     head: {
       title: "Senang Segar",
       meta: [
-        {
-          "http-equiv": "Content-Security-Policy",
-          content: "default-src 'self'",
-        },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
           name: "msapplication-TileColor",
