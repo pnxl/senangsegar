@@ -24,7 +24,7 @@
         >
         <nuxt-link
           to="/id/menu"
-          class="my-auto dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
+          class="my-auto dark:bg-brand-darkest bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
         >
           <p>Menu</p>
         </nuxt-link>
@@ -37,10 +37,10 @@
         <slot />
       </div>
       <footer
-        class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 pt-4 md:px-24 sm:px-16 px-8"
+        class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 pt-4 md:px-24 mt-24 sm:px-16 px-8"
       >
         <div
-          class="dark:bg-brand-darkest bg-brand-lighter rounded-[2.5rem] p-8 mb-16 -mt-24 flex flex-col sm:flex-row gap-y-4 sm:gap-y-0 justify-between"
+          class="dark:bg-brand-darkest bg-brand-light rounded-[2.5rem] p-8 -mt-24 mb-16 flex flex-col sm:flex-row gap-y-4 sm:gap-y-0 justify-between"
         >
           <h2
             class="font-medium text-xl sm:text-2xl sm:w-1/2 dark:text-brand-lightest text-brand-darkest"
@@ -50,7 +50,7 @@
           </h2>
           <nuxt-link
             to="/menu"
-            class="dark:bg-brand-darker bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 text-center sm:text-left sm:w-fit h-fit my-auto rounded-full font-medium"
+            class="dark:bg-brand-darker bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 text-center sm:text-left sm:w-fit h-fit my-auto rounded-full font-medium"
           >
             <p>Lihat Menu</p>
           </nuxt-link>
@@ -73,7 +73,7 @@
               >
                 <Icon
                   name="fa6-brands:instagram"
-                  class="text-[1.375rem] my-auto dark:text-brand-dark dark:hover:text-brand-light duration-75 ease-linear"
+                  class="text-[1.375rem] my-auto dark:text-brand-dark text-brand-darker hover:text-brand-dark dark:hover:text-brand-light duration-75 ease-linear"
                 />
               </nuxt-link>
               <nuxt-link
@@ -81,7 +81,7 @@
               >
                 <Icon
                   name="fa6-brands:github"
-                  class="text-[1.375rem] my-auto dark:text-brand-dark dark:hover:text-brand-light duration-75 ease-linear"
+                  class="text-[1.375rem] my-auto dark:text-brand-dark text-brand-darker hover:text-brand-dark dark:hover:text-brand-light duration-75 ease-linear"
                 />
               </nuxt-link>
             </div>
@@ -100,7 +100,7 @@
           </div>
           <div class="gap-y-2 flex flex-col">
             <h3
-              class="text-lg font-semibold dark:text-brand-dark text-brand-light"
+              class="text-lg font-semibold dark:text-brand-dark text-brand-darker"
             >
               Halaman
             </h3>
@@ -116,7 +116,7 @@
           </div>
           <div class="gap-y-2 flex flex-col">
             <h3
-              class="text-lg font-semibold dark:text-brand-dark text-brand-light"
+              class="text-lg font-semibold dark:text-brand-dark text-brand-darker"
             >
               Alamat
             </h3>

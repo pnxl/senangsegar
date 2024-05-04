@@ -18,7 +18,9 @@
             name="flagpack:id"
             class="text-[8rem] group-hover:opacity-75 mx-auto"
           />
-          <p class="mx-auto dark:text-brand-lightest">Bahasa Indonesia</p>
+          <p class="mx-auto dark:text-brand-lightest text-center">
+            Bahasa Indonesia
+          </p>
         </nuxt-link>
         <nuxt-link
           to="/en/survey"
@@ -28,7 +30,7 @@
             name="flagpack:gb-ukm"
             class="text-[8rem] mx-auto group-hover:opacity-75"
           />
-          <p class="mx-auto dark:text-brand-lightest">
+          <p class="mx-auto dark:text-brand-lightest text-center">
             English (International)
           </p>
         </nuxt-link>

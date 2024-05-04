@@ -33,7 +33,7 @@
               type="radio"
               name="smoothiePrice"
               value="Rp 7.500"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 7.500</i>
           </label>
@@ -43,7 +43,7 @@
               type="radio"
               name="smoothiePrice"
               value="Rp 9.000"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 9.000</i>
           </label>
@@ -53,7 +53,7 @@
               type="radio"
               name="smoothiePrice"
               value="Rp 10.500"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 10.500</i>
           </label>
@@ -63,7 +63,7 @@
               type="radio"
               name="smoothiePrice"
               value="Rp 12.000"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 12.000</i>
           </label>
@@ -73,7 +73,7 @@
               type="radio"
               name="smoothiePrice"
               value="Rp 13.500"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 13.500</i>
           </label>
@@ -83,7 +83,7 @@
               type="radio"
               name="smoothiePrice"
               value="Rp 15.000"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 15.000</i>
           </label>
@@ -103,7 +103,7 @@
               type="radio"
               name="esPrice"
               value="Rp 7.500"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 7.500</i>
           </label>
@@ -113,7 +113,7 @@
               type="radio"
               name="esPrice"
               value="Rp 9.000"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 9.000</i>
           </label>
@@ -123,7 +123,7 @@
               type="radio"
               name="esPrice"
               value="Rp 10.500"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 10.500</i>
           </label>
@@ -133,7 +133,7 @@
               type="radio"
               name="esPrice"
               value="Rp 12.000"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 12.000</i>
           </label>
@@ -143,7 +143,7 @@
               type="radio"
               name="esPrice"
               value="Rp 13.500"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 13.500</i>
           </label>
@@ -153,7 +153,7 @@
               type="radio"
               name="esPrice"
               value="Rp 15.000"
-              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+              class="w-4 h-4 my-auto dark:bg-neutral-600 bg-neutral-300/75 checked:bg-brand-dark checked:ring-brand-dark dark:checked:bg-brand-light chcked:ring-offset-neutral-100 dark:checked:ring-brand-light ring-transparent checked:dark:ring-offset-neutral-900 checked:ring-2 ring-offset-1 mx-auto rounded-full appearance-none"
             />
             <i>Rp 15.000</i>
           </label>
@@ -183,7 +183,7 @@
           navigateTo('/id/survey/finished');
         "
         v-if="smoothiePrice !== '' && esPrice !== ''"
-        class="dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
+        class="dark:bg-brand-darkest bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light/50 hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
       >
         <p>Kumpul Survei</p>
       </button>
