@@ -52,6 +52,9 @@
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           Dari pilihan berikut, topping mana yang akan Anda tambah ke es campur?
         </p>
+        <p class="md:w-1/2 -mt-4 text-sm dark:text-brand-dark opacity-50">
+          (Lebih dari satu pilihan diterima)
+        </p>
         <div class="flex flex-col gap-y-2">
           <label class="flex gap-x-4">
             <input

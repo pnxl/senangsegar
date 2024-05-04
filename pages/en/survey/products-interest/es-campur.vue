@@ -51,6 +51,9 @@
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           From the following options, what toppings would you put on es campur?
         </p>
+        <p class="md:w-1/2 -mt-4 text-sm dark:text-brand-dark opacity-50">
+          (Multiple choices are accepted)
+        </p>
         <div class="flex flex-col gap-y-2">
           <label class="flex gap-x-4">
             <input

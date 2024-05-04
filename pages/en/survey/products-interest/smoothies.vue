@@ -48,6 +48,9 @@
           From the following options, what fruits would you make into a
           smoothie?
         </p>
+        <p class="md:w-1/2 -mt-4 text-sm dark:text-brand-dark opacity-50">
+          (Multiple choices are accepted)
+        </p>
         <div class="flex flex-col gap-y-2">
           <label class="flex gap-x-4">
             <input
@@ -125,6 +128,9 @@
       >
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           From the following options, what toppings would you put on a smoothie?
+        </p>
+        <p class="md:w-1/2 -mt-4 text-sm dark:text-brand-dark opacity-50">
+          (Multiple choices are accepted)
         </p>
         <div class="flex flex-col gap-y-2">
           <label class="flex gap-x-4">
@@ -205,7 +211,7 @@
           ]
             .join(', ')
             .replaceAll('false, ', '')
-            .replaceAll('false', '')
+            .replaceAll('false', '');
 
           useCookie('survey_smoothieToppings').value = [
             String(iceCream).replace('true', 'Es Krim'),
@@ -214,7 +220,7 @@
           ]
             .join(', ')
             .replaceAll('false, ', '')
-            .replaceAll('false', '')
+            .replaceAll('false', '');
 
           useCookie('survey_smoothieSuggestion').value = ingredientSuggestion;
 
