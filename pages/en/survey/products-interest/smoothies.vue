@@ -206,7 +206,6 @@
             .join(', ')
             .replaceAll('false, ', '')
             .replaceAll('false', '')
-            .replaceAll(', ', '');
 
           useCookie('survey_smoothieToppings').value = [
             String(iceCream).replace('true', 'Es Krim'),
@@ -216,7 +215,6 @@
             .join(', ')
             .replaceAll('false, ', '')
             .replaceAll('false', '')
-            .replaceAll(', ', '');
 
           useCookie('survey_smoothieSuggestion').value = ingredientSuggestion;
 

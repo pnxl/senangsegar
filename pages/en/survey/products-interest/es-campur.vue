@@ -170,8 +170,7 @@
           ]
             .join(', ')
             .replaceAll('false, ', '')
-            .replaceAll('false', '')
-            .replaceAll(', ', '');
+            .replaceAll('false', '');
 
           useCookie('survey_esSuggestion').value = toppingSuggestion;
 
