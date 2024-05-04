@@ -4,7 +4,7 @@
       <h1
         class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium lg:w-2/3 dark:text-brand-light"
       >
-        Drinks that you make you cooler than a cucumber.
+        Drinks that you cool you down more than a cucumber.
       </h1>
       <p class="text-lg md:w-1/2 dark:text-brand-dark">
         We serve freshly made juices, smoothies, and es campur - great for those
