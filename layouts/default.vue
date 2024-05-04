@@ -67,6 +67,24 @@
                 Senang Segar
               </h1>
             </div>
+            <div class="flex flex-row justify-start gap-x-4 ml-[2.375rem] mb-4">
+              <nuxt-link
+                to="/id/redirect?url=https://www.instagram.com/senang_segar/"
+              >
+                <Icon
+                  name="fa6-brands:instagram"
+                  class="text-[1.375rem] my-auto dark:text-brand-dark dark:hover:text-brand-light duration-75 ease-linear"
+                />
+              </nuxt-link>
+              <nuxt-link
+                to="/id/redirect?url=https://www.github.com/pnxl/senangsegar"
+              >
+                <Icon
+                  name="fa6-brands:github"
+                  class="text-[1.375rem] my-auto dark:text-brand-dark dark:hover:text-brand-light duration-75 ease-linear"
+                />
+              </nuxt-link>
+            </div>
             <div class="flex gap-x-2 ml-10">
               <Icon name="flagpack:id" class="text-lg my-auto opacity-75" />
               <p class="my-auto dark:text-neutral-400">Bahasa Indonesia</p>
