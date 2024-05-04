@@ -172,12 +172,12 @@
             String(useCookie('survey_juiceIngredients').value),
             String(useCookie('survey_juiceToppings').value),
             String(useCookie('survey_juiceSuggestion').value),
-            String(useCookie('survey_smoothiePrice').value),
+            String(smoothiePrice),
             String(useCookie('survey_esInterest').value),
             String(useCookie('survey_esWhyNot').value),
             String(useCookie('survey_esToppings').value),
             String(useCookie('survey_esSuggestion').value),
-            String(useCookie('survey_esPrice').value)
+            String(esPrice)
           );
 
           useCookie('survey_finished').value = 'true';
