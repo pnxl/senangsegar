@@ -7,27 +7,8 @@
         Sampai jumpa lagi!
       </h1>
       <p class="text-lg md:w-2/3 dark:text-brand-dark">
-        Anda akan diarahkan ke halaman diluar website ini dalam 3 detik. Tekan
-        tombol di bawah untuk membatalkan tindakan ini.
+        Anda akan diarahkan ke halaman diluar website ini dalam 3 detik.
       </p>
-
-      <div
-        class="flex md:flex-row flex-col gap-x-0 md:gap-x-4 gap-y-4 md:gap-y-0"
-      >
-        <button
-          @click="this.$router.go(-1)"
-          class="dark:bg-brand-darkest bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light/50 hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
-        >
-          <p>Aku ingin kembali!</p>
-        </button>
-
-        <button
-          @click="navigateTo(route.query.url, { external: true })"
-          class="dark:bg-brand-darkest bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light/50 hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
-        >
-          <p>Bawa aku kesana!</p>
-        </button>
-      </div>
     </div>
     <div>
       <img src="@/assets/branding/sad.png" class="w-96 hidden sm:block" />
@@ -36,10 +17,6 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-  layout: "custom",
-});
-
 const route = useRoute();
 
 if (!route.query.url) {
@@ -49,4 +26,11 @@ if (!route.query.url) {
     return navigateTo(route.query.url, { external: true });
   }, 3000);
 }
+
+definePageMeta({
+  pageTransition: {
+    name: "swipe",
+  },
+  layout: "custom",
+});
 </script>
