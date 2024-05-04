@@ -3,7 +3,6 @@
     class="bg-neutral-100 dark:bg-neutral-900 flex flex-col gap-y-8 sm:gap-y-12 md:gap-y-16"
   >
     <header
-      :class="{ sticking }"
       ref="header"
       class="sticky md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 flex md:flex-row flex-col p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
     >
@@ -125,27 +124,3 @@
     </div>
   </main>
 </template>
-
-<script lang="ts">
-import { onMounted, ref } from "vue";
-
-const target = ref<Element>();
-const sticking = ref<boolean>(false);
-
-onMounted(() => {
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      sticking.value = entry.isIntersecting;
-    },
-    { threshold: 0.51 }
-  );
-
-  observer.observe(target.value as Element);
-});
-</script>
-
-<style>
-.sticking {
-  @apply top-0 rounded-t-none border-t-0 mx-0;
-}
-</style>
