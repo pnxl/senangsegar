@@ -7,8 +7,8 @@
         Drinks that you cool you down more than a cucumber.
       </h1>
       <p class="text-lg md:w-1/2 dark:text-brand-dark">
-        We serve freshly made juices, smoothies, and es campur - great for those
-        hot summers!
+        We serve freshly made smoothies, fruit sodas, and es campur - great for
+        those hot summers!
       </p>
       <nuxt-link
         to="/menu"
