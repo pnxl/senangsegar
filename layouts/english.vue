@@ -124,10 +124,8 @@
             >
               Address
             </h3>
-            <a
-              href="https://maps.app.goo.gl/RDJjLqVUpjtgFtha6"
-              target="_blank"
-              rel="noopener noreferrer"
+            <nuxt-link
+              to="/en/redirect?url=https://maps.app.goo.gl/RDJjLqVUpjtgFtha6"
               class="flex flex-col gap-y-2 group dark:text-brand-lightest text-brand-darkest"
             >
               <p class="group-hover:underline">SDH Daan Mogot</p>
@@ -138,7 +136,7 @@
               </p>
               <p class="group-hover:underline">Jl. Bedugul No. 1</p>
               <p class="group-hover:underline">Daan Mogot Baru, Kalideres</p>
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </footer>
