@@ -8,7 +8,7 @@
           useCookie('survey_smoothieFruits').value = null;
           useCookie('survey_smoothieToppings').value = null;
           useCookie('survey_smoothieSuggestion').value = null;
-          navigateTo('/id/survey/smoothies');
+          navigateTo('/id/survey/products-interest/smoothies');
         "
         class="dark:text-neutral-500 group font-medium flex gap-x-1"
       >
@@ -261,7 +261,7 @@ export default {
 
 <script setup lang="ts">
 if (!useCookie("survey_smoothieInterest").value) {
-  navigateTo("/id/survey/smoothies");
+  navigateTo("/id/survey/products-interest/smoothies");
 } else if (useCookie("survey_finished").value) {
   navigateTo("/id/survey/finished");
 }
