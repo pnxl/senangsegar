@@ -93,7 +93,7 @@
             </div>
             <div class="flex gap-x-2 ml-[2.375rem]">
               <nuxt-link
-                to="/id/"
+                :to="'/id/' + $route.path.slice(4)"
                 class="my-auto text-sm hover:underline dark:text-neutral-500"
               >
                 Mau pakai Bahasa Indonesia aja?

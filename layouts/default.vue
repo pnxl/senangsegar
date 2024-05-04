@@ -91,7 +91,7 @@
             </div>
             <div class="flex gap-x-2 ml-[2.375rem]">
               <nuxt-link
-                to="/en/"
+                :to="'/en/' + $route.path.slice(4)"
                 class="my-auto text-sm hover:underline dark:text-neutral-500"
               >
                 Prefer English instead?
