@@ -37,7 +37,7 @@
         <slot />
       </div>
       <footer
-        class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 pt-4 md:px-24 sm:px-16 px-8"
+        class="dark:bg-neutral-800/75 bg-neutral-200/25 md:pb-16 sm:pb-12 pb-8 mt-24 pt-4 md:px-24 sm:px-16 px-8"
       >
         <div
           class="dark:bg-brand-darkest bg-brand-light rounded-[2.5rem] p-8 mb-16 -mt-24 flex flex-col sm:flex-row gap-y-4 sm:gap-y-0 justify-between"
