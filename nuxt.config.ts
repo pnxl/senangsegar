@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     layoutTransition: { name: "layout", mode: "out-in" },
     head: {
+      title: "Senang Segar",
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
