@@ -7,8 +7,8 @@
         Minuman yang menyejukan dan menyenangkan.
       </h1>
       <p class="text-lg md:w-1/2 dark:text-brand-dark">
-        Kami menyajikan smoothie, soda berasa buah, dan es campur yang segar -
-        cocok untuk musim panas yang terik!
+        Kami menyajikan smoothie, soda buah, dan es campur yang segar - cocok
+        untuk musim panas yang terik!
       </p>
       <nuxt-link
         to="/menu"

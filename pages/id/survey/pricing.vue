@@ -91,7 +91,7 @@
       </div>
       <div class="flex flex-col gap-y-4" v-if="smoothiePrice !== ''">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
-          Menurut Anda, berapa harga yang pas untuk satu soda berasa buah (tanpa
+          Menurut Anda, berapa harga yang pas untuk satu soda buah (tanpa
           topping apapun)?
         </p>
         <div

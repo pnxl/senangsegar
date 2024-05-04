@@ -23,7 +23,7 @@
       </h1>
       <div class="flex flex-col gap-y-4">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
-          Apakah Anda tertarik untuk membeli soda berasa buah?
+          Apakah Anda tertarik untuk membeli soda buah?
         </p>
         <div class="flex flex-col gap-y-2">
           <label class="flex gap-x-4">
