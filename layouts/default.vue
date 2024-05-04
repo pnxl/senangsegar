@@ -17,7 +17,7 @@
           Senang Segar
         </h1>
       </nuxt-link>
-      <div
+      <!-- <div
         class="flex flex-row gap-x-8 md:my-auto text-base justify-center md:justify-start"
       >
         <nuxt-link
@@ -31,7 +31,7 @@
         >
           <p>Menu</p>
         </nuxt-link>
-      </div>
+      </div> -->
     </header>
     <div ref="target" class="md:mt-16 sm:mt-12 mt-8">
       <div
@@ -51,12 +51,12 @@
             Entah makanan mengenyangkan atau hidangan penutup yang dingin, kami
             siap melayani Anda.
           </h2>
-          <nuxt-link
+          <!-- <nuxt-link
             to="/menu"
             class="dark:bg-brand-darker bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 text-center sm:text-left sm:w-fit h-fit my-auto rounded-full font-medium"
           >
             <p>Lihat Menu</p>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
         <div
           class="flex flex-col md:flex-row gap-y-8 md:gap-y-0 justify-between"

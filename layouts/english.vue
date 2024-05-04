@@ -25,12 +25,12 @@
           class="my-auto selection:dark:text-brand-light selection:text-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter selection:hover:text-brand-darkest hover:text-brand-darkest font-medium"
           >About Us</nuxt-link
         >
-        <nuxt-link
+        <!-- <nuxt-link
           to="/en/menu"
           class="dark:bg-brand-darkest text-center sm:text-left bg-brand-light selection:dark:text-brand-light dark:text-brand-light dark:hover:bg-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter hover:bg-brand-light selection:hover:text-brand-darkest hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
         >
           <p>Menu</p>
-        </nuxt-link>
+        </nuxt-link> -->
       </div>
     </header>
     <div ref="target" class="md:mt-16 sm:mt-12 mt-8">
@@ -51,12 +51,12 @@
             Whether it's a filling meal or a cold dessert, we're ready to serve
             you.
           </h2>
-          <nuxt-link
+          <!-- <nuxt-link
             to="/menu"
             class="dark:bg-brand-darker bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 text-center sm:text-left sm:w-fit h-fit my-auto rounded-full font-medium"
           >
             <p>See the menu</p>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
         <div
           class="flex flex-col md:flex-row gap-y-8 md:gap-y-0 justify-between"

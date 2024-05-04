@@ -10,12 +10,12 @@
         We serve freshly made smoothies, fruit sodas, and es campur - great for
         those hot summers!
       </p>
-      <nuxt-link
+      <!-- <nuxt-link
         to="/menu"
         class="dark:bg-brand-darkest bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light/50 hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
       >
         <p>See the menu</p>
-      </nuxt-link>
+      </nuxt-link> -->
     </div>
   </div>
 </template>
