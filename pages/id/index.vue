@@ -4,11 +4,11 @@
       <h1
         class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium lg:w-1/2 dark:text-brand-light"
       >
-        Hidangan yang mengenyangkan dan menyenangkan.
+        Minuman yang menyejukan dan menyenangkan.
       </h1>
       <p class="text-lg md:w-1/2 dark:text-brand-dark">
-        Kami menyediakan makanan lezat beraroma, dibuat hanya dengan bahan-bahan
-        segar.
+        Kami menyajikan jus, smoothie, dan es campur yang segar - cocok untuk
+        musim panas yang terik!
       </p>
       <nuxt-link
         to="/menu"

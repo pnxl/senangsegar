@@ -4,10 +4,11 @@
       <h1
         class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium lg:w-1/2 dark:text-brand-light"
       >
-        Serving dishes that make people and their tummies happy.
+        Drinks that you makes you cooler than a cucumber.
       </h1>
       <p class="text-lg md:w-1/2 dark:text-brand-dark">
-        We provide delicious, flavorful food, made with only fresh ingredients.
+        We serve freshly made juices, smoothies, and es campur - great for those
+        hot summers!
       </p>
       <nuxt-link
         to="/menu"
