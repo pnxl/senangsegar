@@ -59,16 +59,19 @@
           class="flex flex-col md:flex-row gap-y-8 md:gap-y-0 justify-between"
         >
           <div class="flex flex-col gap-y-2">
-            <h1
-              class="font-display dark:text-brand-light text-brand-dark text-2xl"
-            >
-              Senang Segar
-            </h1>
-            <div class="flex gap-x-2">
+            <div class="flex flex-row justify-start">
+              <img src="@/assets/branding/logo.svg" class="h-8 my-auto" />
+              <h1
+                class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker"
+              >
+                Senang Segar
+              </h1>
+            </div>
+            <div class="flex gap-x-2 ml-10">
               <Icon name="flagpack:id" class="text-lg my-auto opacity-75" />
               <p class="my-auto dark:text-neutral-400">Bahasa Indonesia</p>
             </div>
-            <div class="flex gap-x-2">
+            <div class="flex gap-x-2 ml-[2.375rem]">
               <nuxt-link
                 to="/en/"
                 class="my-auto text-sm hover:underline dark:text-neutral-500"
