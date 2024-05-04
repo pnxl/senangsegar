@@ -4,7 +4,7 @@
   >
     <header
       ref="header"
-      class="sticky md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 flex md:flex-row flex-col p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
+      class="sticky selection:bg-transparent md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 flex md:flex-row flex-col p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
     >
       <nuxt-link
         to="/en/"
@@ -12,7 +12,7 @@
       >
         <img src="@/assets/branding/logo.svg" class="h-8 my-auto" />
         <h1
-          class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker"
+          class="font-display pl-2 my-auto text-2xl dark:text-brand-light selection:dark:text-brand-light selection:text-brand-darker text-brand-darker"
         >
           Senang Segar
         </h1>
@@ -22,12 +22,12 @@
       >
         <nuxt-link
           to="/en/#about-us"
-          class="my-auto dark:hover:text-brand-lighter hover:text-brand-darkest font-medium"
+          class="my-auto selection:dark:text-brand-light selection:text-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter selection:hover:text-brand-darkest hover:text-brand-darkest font-medium"
           >About Us</nuxt-link
         >
         <nuxt-link
           to="/en/menu"
-          class="dark:bg-brand-darkest text-center sm:text-left bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
+          class="dark:bg-brand-darkest text-center sm:text-left bg-brand-light selection:dark:text-brand-light dark:text-brand-light dark:hover:bg-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter hover:bg-brand-light selection:hover:text-brand-darkest hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
         >
           <p>Menu</p>
         </nuxt-link>
@@ -62,14 +62,17 @@
           class="flex flex-col md:flex-row gap-y-8 md:gap-y-0 justify-between"
         >
           <div class="flex flex-col gap-y-2">
-            <div class="flex flex-row justify-start">
+            <nuxt-link
+              to="/en/"
+              class="flex selection:bg-transparent flex-row justify-center md:justify-start mb-4 md:mb-0"
+            >
               <img src="@/assets/branding/logo.svg" class="h-8 my-auto" />
               <h1
-                class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker"
+                class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker selection:dark:text-brand-light selection:text-brand-darker"
               >
                 Senang Segar
               </h1>
-            </div>
+            </nuxt-link>
             <div class="flex flex-row justify-start gap-x-4 ml-[2.375rem] mb-4">
               <nuxt-link
                 to="/id/redirect?url=https://www.instagram.com/senang_segar/"

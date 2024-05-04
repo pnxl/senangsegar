@@ -6,6 +6,6 @@
 @tailwind utilities;
 
 * {
-  @apply duration-[250ms] ease-in-out transition-all;
+  @apply duration-[250ms] ease-in-out transition-all dark:selection:bg-brand-darker dark:selection:text-brand-lightest selection:bg-brand-lighter selection:text-brand-darkest;
   /* @apply border border-red-500; */
 }
