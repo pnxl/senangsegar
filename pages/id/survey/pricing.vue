@@ -19,7 +19,7 @@
           (tanpa tambahan apapun)?
         </p>
         <div
-          class="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 w-fit gap-x-6 md:gap-y-3 gap-y-5 lg:gap-y-0"
+          class="grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 w-fit gap-x-6 md:gap-y-3 gap-y-5 lg:gap-y-0"
         >
           <label class="flex flex-col gap-y-2">
             <input
@@ -89,7 +89,7 @@
           topping apapun)?
         </p>
         <div
-          class="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 w-fit gap-x-6 md:gap-y-3 gap-y-5 lg:gap-y-0"
+          class="grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 w-fit gap-x-6 md:gap-y-3 gap-y-5 lg:gap-y-0"
         >
           <label class="flex flex-col gap-y-2">
             <input
