@@ -19,11 +19,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { onMounted } from "vue";
-
-onMounted(() => {
-  useCookie("language").value = "id";
-});
-</script>

@@ -21,12 +21,6 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from "vue";
-
-onMounted(() => {
-  useCookie("language").value = "en";
-});
-
 definePageMeta({
   layout: "english",
 });

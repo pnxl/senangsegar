@@ -90,12 +90,15 @@
               <p class="my-auto dark:text-neutral-400">Bahasa Indonesia</p>
             </div>
             <div class="flex gap-x-2 ml-[2.375rem]">
-              <nuxt-link
-                :to="'/en/' + $route.path.slice(4)"
+              <button
+                @click="
+                  useCookie('language').value = 'en';
+                  navigateTo('/en/' + $route.path.slice(4));
+                "
                 class="my-auto text-sm hover:underline dark:text-neutral-500"
               >
                 Prefer English instead?
-              </nuxt-link>
+              </button>
             </div>
           </div>
           <div class="gap-y-2 flex flex-col">

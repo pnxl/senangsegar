@@ -92,12 +92,15 @@
               </p>
             </div>
             <div class="flex gap-x-2 ml-[2.375rem]">
-              <nuxt-link
-                :to="'/id/' + $route.path.slice(4)"
+              <button
+                @click="
+                  useCookie('language').value = 'id';
+                  navigateTo('/id/' + $route.path.slice(4));
+                "
                 class="my-auto text-sm hover:underline dark:text-neutral-500"
               >
                 Mau pakai Bahasa Indonesia aja?
-              </nuxt-link>
+              </button>
             </div>
           </div>
           <div class="gap-y-2 flex flex-col">
