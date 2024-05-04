@@ -28,9 +28,6 @@ if (!route.query.url) {
 }
 
 definePageMeta({
-  pageTransition: {
-    name: "swipe",
-  },
   layout: "custom",
 });
 </script>
