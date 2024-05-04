@@ -102,16 +102,17 @@
             <h3
               class="text-lg font-semibold dark:text-brand-dark text-brand-darker"
             >
-              Halaman
+              Tentang Senang Segar
             </h3>
             <div
-              class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
+              class="flex flex-col ml-[2.375rem] md:ml-0 gap-y-2 dark:text-brand-lightest text-brand-darkest"
             >
-              <nuxt-link to="/#tentang-kita" class="hover:underline"
-                >Tentang Kita</nuxt-link
+              <nuxt-link to="/id/copyright" class="hover:underline"
+                >Hak Cipta dan Lisensi</nuxt-link
               >
-              <nuxt-link to="/menu" class="hover:underline">Menu</nuxt-link>
-              <nuxt-link to="/merek" class="hover:underline">Merek</nuxt-link>
+              <nuxt-link to="/id/branding" class="hover:underline"
+                >Merek</nuxt-link
+              >
             </div>
           </div>
           <div class="gap-y-2 flex flex-col">
@@ -122,7 +123,7 @@
             </h3>
             <nuxt-link
               href="/id/redirect?url=https://maps.app.goo.gl/RDJjLqVUpjtgFtha6"
-              class="flex flex-col gap-y-2 group dark:text-brand-lightest text-brand-darkest"
+              class="flex flex-col ml-[2.375rem] md:ml-0 gap-y-2 group dark:text-brand-lightest text-brand-darkest"
             >
               <p class="group-hover:underline">SDH Daan Mogot</p>
               <p

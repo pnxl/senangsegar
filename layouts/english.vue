@@ -104,15 +104,14 @@
             <h3
               class="text-lg font-semibold dark:text-brand-dark text-brand-darker"
             >
-              Pages
+              About Senang Segar
             </h3>
             <div
-              class="flex flex-col gap-y-2 dark:text-brand-lightest text-brand-darkest"
+              class="flex flex-col ml-[2.375rem] md:ml-0 gap-y-2 dark:text-brand-lightest text-brand-darkest"
             >
-              <nuxt-link to="/#about-us" class="hover:underline"
-                >About Us</nuxt-link
+              <nuxt-link to="/en/copyright" class="hover:underline"
+                >Copyright and Licenses</nuxt-link
               >
-              <nuxt-link to="/menu" class="hover:underline">Menu</nuxt-link>
               <nuxt-link to="/en/branding" class="hover:underline"
                 >Branding</nuxt-link
               >
@@ -126,7 +125,7 @@
             </h3>
             <nuxt-link
               to="/en/redirect?url=https://maps.app.goo.gl/RDJjLqVUpjtgFtha6"
-              class="flex flex-col gap-y-2 group dark:text-brand-lightest text-brand-darkest"
+              class="flex ml-[2.375rem] md:ml-0 flex-col gap-y-2 group dark:text-brand-lightest text-brand-darkest"
             >
               <p class="group-hover:underline">SDH Daan Mogot</p>
               <p
