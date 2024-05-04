@@ -31,4 +31,11 @@ definePageMeta({
   },
   layout: "custom",
 });
+
+if (
+  !useCookie("survey_esPrice").value ||
+  !useCookie("survey_smoothiePrice").value
+) {
+  navigateTo("/en/survey/pricing");
+}
 </script>

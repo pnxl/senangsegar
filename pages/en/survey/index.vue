@@ -11,12 +11,15 @@
         business. Don't worry, it won't take long - five minutes tops - we
         promise!
       </p>
-      <nuxt-link
-        to="/en/survey/about-you"
+      <button
+        @click="
+          useCookie('survey_started').value = 'true';
+          navigateTo('/en/survey/about-you');
+        "
         class="dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
       >
         <p>Start Survey</p>
-      </nuxt-link>
+      </button>
     </div>
   </div>
 </template>
@@ -28,4 +31,10 @@ definePageMeta({
   },
   layout: "custom",
 });
+
+if (useCookie("survey_finished").value) {
+  navigateTo("/id/survey/finished");
+} else if (useCookie("survey_finished").value) {
+  navigateTo("/id/survey/finished");
+}
 </script>

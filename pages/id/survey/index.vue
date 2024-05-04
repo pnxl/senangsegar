@@ -11,12 +11,16 @@
         bisnis kami. Jangan khawatir, ini tidak akan memakan waktu lama - paling
         lama lima menit - kami janji!
       </p>
-      <nuxt-link
-        to="/id/survey/about-you"
+
+      <button
+        @click="
+          useCookie('survey_started').value = 'true';
+          navigateTo('/id/survey/about-you');
+        "
         class="dark:bg-brand-darkest bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
       >
         <p>Mulai Survei</p>
-      </nuxt-link>
+      </button>
     </div>
   </div>
 </template>
@@ -28,4 +32,8 @@ definePageMeta({
   },
   layout: "custom",
 });
+
+if (useCookie("survey_finished").value) {
+  navigateTo("/id/survey/finished");
+}
 </script>

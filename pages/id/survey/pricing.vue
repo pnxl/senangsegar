@@ -1,13 +1,19 @@
 <template>
   <div class="min-h-screen min-w-full flex flex-col gap-y-4">
     <div class="flex flex-col gap-y-8">
-      <nuxt-link
-        to="/id/survey/products-interest/es-campur"
+      <button
+        @click="
+          useCookie('survey_esInterest').value = null;
+          useCookie('survey_esWhyNot').value = null;
+          useCookie('survey_esToppings').value = null;
+          useCookie('survey_esSuggestion').value = null;
+          navigateTo('/id/survey/products-interest/es-campur');
+        "
         class="dark:text-neutral-500 group font-medium flex gap-x-1"
       >
         <Icon name="ph:arrow-left-bold" class="my-auto text-lg" />
         <p class="group-hover:underline">Kembali</p>
-      </nuxt-link>
+      </button>
       <h1
         class="font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium md:w-1/2 dark:text-brand-light"
       >
@@ -165,12 +171,12 @@
             String(useCookie('survey_juiceFruits').value),
             String(useCookie('survey_juiceIngredients').value),
             String(useCookie('survey_juiceToppings').value),
-            String(useCookie('survey_juiceSuggestions').value),
+            String(useCookie('survey_juiceSuggestion').value),
             String(useCookie('survey_smoothiePrice').value),
             String(useCookie('survey_esInterest').value),
             String(useCookie('survey_esWhyNot').value),
             String(useCookie('survey_esToppings').value),
-            String(useCookie('survey_esSuggestions').value),
+            String(useCookie('survey_esSuggestion').value),
             String(useCookie('survey_esPrice').value)
           );
 
@@ -205,6 +211,13 @@ export default {
 
 <script setup lang="ts">
 import { createClient } from "@supabase/supabase-js";
+
+if (!useCookie("survey_esInterest").value) {
+  navigateTo("/id/survey/products-interest/es-campur");
+} else if (useCookie("survey_finished").value) {
+  navigateTo("/id/survey/finished");
+}
+
 const supabase = createClient(
   "https://qsungmsncfglkrhjapia.supabase.co",
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFzdW5nbXNuY2ZnbGtyaGphcGlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTQ4MDI3NTEsImV4cCI6MjAzMDM3ODc1MX0.yUozFWavwITc-KLxwmqB32ACmIYL7JDwF54ntYJaza0"

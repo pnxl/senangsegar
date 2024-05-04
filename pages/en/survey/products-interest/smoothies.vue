@@ -1,13 +1,16 @@
 <template>
   <div class="min-h-screen min-w-full flex flex-col gap-y-4">
     <div class="flex flex-col gap-y-8">
-      <nuxt-link
-        to="/en/survey/about-you"
+      <button
+        @click="
+          useCookie('survey_grade').value = null;
+          navigateTo('/en/survey/about-you');
+        "
         class="dark:text-neutral-500 group font-medium flex gap-x-1"
       >
         <Icon name="ph:arrow-left-bold" class="my-auto text-lg" />
         <p class="group-hover:underline">Back</p>
-      </nuxt-link>
+      </button>
       <h1
         class="font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium md:w-1/2 dark:text-brand-light"
       >
@@ -313,4 +316,12 @@ export default {
     };
   },
 };
+</script>
+
+<script setup lang="ts">
+if (!useCookie("survey_grade").value) {
+  navigateTo("/en/survey/about-you");
+} else if (useCookie("survey_finished").value) {
+  navigateTo("/id/survey/finished");
+}
 </script>
