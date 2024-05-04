@@ -24,7 +24,7 @@
               v-model="interest"
               type="radio"
               name="interest"
-              value="Iya"
+              value="true"
               class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
             />
             <i class="my-auto">Iya</i>
@@ -34,7 +34,7 @@
               v-model="interest"
               type="radio"
               name="interest"
-              value="Tidak"
+              value="false"
               class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
             />
             <i class="my-auto">Tidak</i>
@@ -241,8 +241,7 @@
           ]
             .join(', ')
             .replaceAll('false, ', '')
-            .replaceAll('false', '')
-            .replaceAll(', ', '');
+            .replaceAll('false', '');
 
           useCookie('survey_juiceIngredients').value = [
             String(yakult).replace('true', 'Yakult'),
@@ -251,8 +250,7 @@
           ]
             .join(', ')
             .replaceAll('false, ', '')
-            .replaceAll('false', '')
-            .replaceAll(', ', '');
+            .replaceAll('false', '');
 
           useCookie('survey_juiceToppings').value = [
             String(fruitSlices).replace('true', 'Potongan Buah'),
@@ -260,8 +258,7 @@
           ]
             .join(', ')
             .replaceAll('false, ', '')
-            .replaceAll('false', '')
-            .replaceAll(', ', '');
+            .replaceAll('false', '');
 
           useCookie('survey_juiceSuggestion').value = ingredientSuggestion;
 
