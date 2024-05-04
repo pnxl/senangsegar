@@ -291,6 +291,8 @@ export default {
 <script setup lang="ts">
 import { createClient } from "@supabase/supabase-js";
 
+const config = useRuntimeConfig();
+
 if (!useCookie("survey_esInterest").value) {
   navigateTo("/id/survey/products-interest/es-campur");
 } else if (useCookie("survey_finished").value) {
@@ -298,9 +300,10 @@ if (!useCookie("survey_esInterest").value) {
 }
 
 const supabase = createClient(
-  "https://qsungmsncfglkrhjapia.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFzdW5nbXNuY2ZnbGtyaGphcGlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTQ4MDI3NTEsImV4cCI6MjAzMDM3ODc1MX0.yUozFWavwITc-KLxwmqB32ACmIYL7JDwF54ntYJaza0"
+  config.public.databaseUrl,
+  config.public.anonymousApikey
 );
+
 async function submit(
   ans_class: string,
   ans_smoothieInterest: string,

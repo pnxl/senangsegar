@@ -157,9 +157,11 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     databasePassword: "",
-    databaseUrl: "",
-    anonymousApikey: "",
     serviceRoleKey: "",
     jwtSecret: "",
+    public: {
+      databaseUrl: "",
+      anonymousApikey: "",
+    },
   },
 });
