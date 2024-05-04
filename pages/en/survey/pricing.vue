@@ -21,8 +21,8 @@
       </h1>
       <div class="flex flex-col gap-y-4">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
-          In your opinion, what is the right price for one juice or smoothie
-          (with two fruits and no additions)?
+          In your opinion, what is the right price for one smoothie (with two
+          fruits and no additions)?
         </p>
         <div
           class="grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 w-fit gap-x-6 md:gap-y-3 gap-y-5 lg:gap-y-0"
@@ -90,6 +90,76 @@
         </div>
       </div>
       <div class="flex flex-col gap-y-4" v-if="smoothiePrice !== ''">
+        <p class="text-lg md:w-1/2 dark:text-brand-dark">
+          In your opinion, what is the right price for one fruit soda (without
+          any toppings)?
+        </p>
+        <div
+          class="grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 w-fit gap-x-6 md:gap-y-3 gap-y-5 lg:gap-y-0"
+        >
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 7.500"
+              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+            />
+            <i>7,500 IDR</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 9.000"
+              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+            />
+            <i>9,000 IDR</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 10.500"
+              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+            />
+            <i>10,500 IDR</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 12.000"
+              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+            />
+            <i>12,000 IDR</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 13.500"
+              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+            />
+            <i>13,500 IDR</i>
+          </label>
+          <label class="flex flex-col gap-y-2">
+            <input
+              v-model="sodaPrice"
+              type="radio"
+              name="sodaPrice"
+              value="Rp 15.000"
+              class="w-4 h-4 mx-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
+            />
+            <i>15,000 IDR</i>
+          </label>
+        </div>
+      </div>
+      <div class="flex flex-col gap-y-4" v-if="sodaPrice !== ''">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           In your opinion, what is the right price for one serving of Es Campur
           (without any toppings)?
