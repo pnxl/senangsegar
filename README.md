@@ -8,3 +8,9 @@ While it isn't recommended to use this website for your own needs, it is definit
 Refer to `.env.example` on how to setup. No other setup instructions will be provided.
 
 Much love to Nuxt for a rock solid framework and Supabase for an easy-to-use database.  ❤ 
+
+---
+
+Code licensed under GNU GPLv2. Branding assets licensed under CC BY-NC-ND 4.0.
+
+Assets and libraries used with permission.
