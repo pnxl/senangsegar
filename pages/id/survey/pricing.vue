@@ -22,7 +22,7 @@
       <div class="flex flex-col gap-y-4">
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           Menurut Anda, berapa harga yang pas untuk satu jus atau smoothie
-          (tanpa tambahan apapun)?
+          (dengan dua buah dan tanpa tambahan apapun)?
         </p>
         <div
           class="grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 w-fit gap-x-6 md:gap-y-3 gap-y-5 lg:gap-y-0"
