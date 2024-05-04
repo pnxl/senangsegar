@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --dotenv .env",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@fontsource-variable/grandstander": "^5.0.21",
-    "@fontsource-variable/montserrat": "^5.0.19"
+    "@fontsource-variable/montserrat": "^5.0.19",
+    "@supabase/supabase-js": "^2.43.1"
   }
 }

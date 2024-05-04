@@ -158,6 +158,22 @@
           useCookie('survey_smoothiePrice').value = smoothiePrice;
           useCookie('survey_esPrice').value = esPrice;
 
+          submit(
+            String(useCookie('survey_grade').value),
+            String(useCookie('survey_juiceInterest').value),
+            String(useCookie('survey_juiceWhyNot').value),
+            String(useCookie('survey_juiceFruits').value),
+            String(useCookie('survey_juiceIngredients').value),
+            String(useCookie('survey_juiceToppings').value),
+            String(useCookie('survey_juiceSuggestions').value),
+            String(useCookie('survey_smoothiePrice').value),
+            String(useCookie('survey_esInterest').value),
+            String(useCookie('survey_esWhyNot').value),
+            String(useCookie('survey_esToppings').value),
+            String(useCookie('survey_esSuggestions').value),
+            String(useCookie('survey_esPrice').value)
+          );
+
           navigateTo('/id/survey/finished');
         "
         v-if="smoothiePrice !== '' && esPrice !== ''"
@@ -185,4 +201,46 @@ export default {
     };
   },
 };
+</script>
+
+<script setup lang="ts">
+import { createClient } from "@supabase/supabase-js";
+const supabase = createClient(
+  "https://qsungmsncfglkrhjapia.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFzdW5nbXNuY2ZnbGtyaGphcGlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTQ4MDI3NTEsImV4cCI6MjAzMDM3ODc1MX0.yUozFWavwITc-KLxwmqB32ACmIYL7JDwF54ntYJaza0"
+);
+async function submit(
+  ans_class: string,
+  ans_juiceInterest: string,
+  ans_juiceWhyNot: string,
+  ans_juiceFruits: string,
+  ans_juiceIngredients: string,
+  ans_juiceToppings: string,
+  ans_juiceSuggestions: string,
+  ans_juicePrice: string,
+  ans_campurInterest: string,
+  ans_campurWhyNot: string,
+  ans_campurToppings: string,
+  ans_campurSuggestions: string,
+  ans_campurPrice: string
+) {
+  await supabase
+    .from("surveyResults")
+    .insert({
+      class: ans_class,
+      juiceInterest: ans_juiceInterest,
+      juiceWhyNot: ans_juiceWhyNot,
+      juiceFruits: ans_juiceFruits,
+      juiceIngredients: ans_juiceIngredients,
+      juiceToppings: ans_juiceToppings,
+      juiceSuggestions: ans_juiceSuggestions,
+      juicePrice: ans_juicePrice,
+      campurInterest: ans_campurInterest,
+      campurWhyNot: ans_campurWhyNot,
+      campurToppings: ans_campurToppings,
+      campurSuggestions: ans_campurSuggestions,
+      campurPrice: ans_campurPrice,
+    })
+    .then((r: any) => console.log(r));
+}
 </script>
