@@ -36,6 +36,10 @@
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+  layout: "custom",
+});
+
 const route = useRoute();
 
 if (!route.query.url) {
