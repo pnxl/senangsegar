@@ -32,7 +32,7 @@
               v-model="interest"
               type="radio"
               name="interest"
-              value="true"
+              value="Iya"
               class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
             />
             <i class="my-auto">Iya</i>
@@ -42,7 +42,7 @@
               v-model="interest"
               type="radio"
               name="interest"
-              value="false"
+              value="Tidak"
               class="w-4 h-4 my-auto dark:bg-neutral-600 checked:bg-brand-light checked:ring-brand-light ring-transparent ring-offset-neutral-900 ring-2 ring-offset-1 rounded-full appearance-none"
             />
             <i class="my-auto">Tidak</i>
