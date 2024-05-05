@@ -23,7 +23,10 @@
       </button>
     </div>
     <div>
-      <img src="@/assets/branding/logo.png" class="w-96 hidden sm:block" />
+      <img
+        src="/branding/senangsegar-mascot-cici-default-1024.png"
+        class="w-96 hidden sm:block"
+      />
     </div>
   </div>
 </template>

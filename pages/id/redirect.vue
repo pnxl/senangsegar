@@ -11,7 +11,10 @@
       </p>
     </div>
     <div>
-      <img src="@/assets/branding/sad.png" class="w-96 hidden sm:block" />
+      <img
+        src="/branding/senangsegar-mascot-cici-sad-1024.png"
+        class="w-96 hidden sm:block"
+      />
     </div>
   </div>
 </template>

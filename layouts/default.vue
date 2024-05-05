@@ -11,7 +11,10 @@
         to="/id/#main"
         class="flex flex-row justify-center md:justify-start mb-4 md:mb-0"
       >
-        <img src="@/assets/branding/logo.svg" class="h-8 my-auto" />
+        <img
+          src="/branding/senangsegar-mascot-cici-default.svg"
+          class="h-8 my-auto"
+        />
         <h1
           class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker selection:dark:text-brand-light selection:text-brand-darker"
         >
@@ -67,7 +70,10 @@
               to="/id/"
               class="flex flex-row selection:bg-transparent justify-center md:justify-start mb-4 md:mb-0"
             >
-              <img src="@/assets/branding/logo.svg" class="h-8 my-auto" />
+              <img
+                src="/branding/senangsegar-mascot-cici-default.svg"
+                class="h-8 my-auto"
+              />
               <h1
                 class="font-display pl-2 my-auto text-2xl dark:text-brand-light text-brand-darker selection:dark:text-brand-light selection:text-brand-darker"
               >

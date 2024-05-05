@@ -19,7 +19,10 @@
       </nuxt-link>
     </div>
     <div>
-      <img src="@/assets/branding/happy.png" class="w-96 hidden sm:block" />
+      <img
+        src="/branding/senangsegar-mascot-cici-happy-1024.png"
+        class="w-96 hidden sm:block"
+      />
     </div>
   </div>
 </template>
