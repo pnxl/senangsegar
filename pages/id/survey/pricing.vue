@@ -19,7 +19,10 @@
       >
         Terakhir, mari kita tentukan titik harga untuk produk tersebut.
       </h1>
-      <div class="flex flex-col gap-y-4">
+      <div
+        class="flex flex-col gap-y-4"
+        v-if="useCookie('survey_smoothieInterest').value !== 'Tidak'"
+      >
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           Menurut Anda, berapa harga yang pas untuk satu smoothie (dengan dua
           buah dan tanpa tambahan apapun)?
@@ -89,7 +92,10 @@
           </label>
         </div>
       </div>
-      <div class="flex flex-col gap-y-4" v-if="smoothiePrice !== ''">
+      <div
+        class="flex flex-col gap-y-4"
+        v-if="useCookie('survey_sodaInterest').value !== 'Tidak'"
+      >
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           Menurut Anda, berapa harga yang pas untuk satu soda buah (tanpa
           topping apapun)?
@@ -159,7 +165,10 @@
           </label>
         </div>
       </div>
-      <div class="flex flex-col gap-y-4" v-if="sodaPrice !== ''">
+      <div
+        class="flex flex-col gap-y-4"
+        v-if="useCookie('survey_esInterest').value !== 'Tidak'"
+      >
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           Menurut Anda, berapa harga yang pas untuk satu porsi Es Campur (tanpa
           topping apapun)?
