@@ -19,7 +19,10 @@
       >
         Finally, let's determine the price point for the product.
       </h1>
-      <div class="flex flex-col gap-y-4">
+      <div
+        class="flex flex-col gap-y-4"
+        v-if="useCookie('survey_smoothieInterest').value !== 'Tidak'"
+      >
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           In your opinion, what is the right price for one smoothie (with two
           fruits and no additions)?
@@ -89,7 +92,10 @@
           </label>
         </div>
       </div>
-      <div class="flex flex-col gap-y-4" v-if="smoothiePrice !== ''">
+      <div
+        class="flex flex-col gap-y-4"
+        v-if="useCookie('survey_sodaInterest').value !== 'Tidak'"
+      >
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           In your opinion, what is the right price for one fruit soda (without
           any toppings)?
@@ -159,7 +165,10 @@
           </label>
         </div>
       </div>
-      <div class="flex flex-col gap-y-4" v-if="sodaPrice !== ''">
+      <div
+        class="flex flex-col gap-y-4"
+        v-if="useCookie('survey_esInterest').value !== 'Tidak'"
+      >
         <p class="text-lg md:w-1/2 dark:text-brand-dark">
           In your opinion, what is the right price for one serving of Es Campur
           (without any toppings)?
