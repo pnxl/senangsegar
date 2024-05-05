@@ -78,7 +78,7 @@
         </div>
         <div>
           <p class="text-lg">
-            Tailwind CSS <span class="text-sm opacity-75">v3.2.4</span>
+            Tailwind CSS <span class="text-sm opacity-75">v3.4.3</span>
           </p>
 
           <ul class="list-disc ml-8">
@@ -88,7 +88,7 @@
         </div>
         <div>
           <p class="text-lg">
-            PostCSS <span class="text-sm opacity-75">v8.4.20</span>
+            PostCSS <span class="text-sm opacity-75">v8.4.38</span>
           </p>
 
           <ul class="list-disc ml-8">
@@ -98,7 +98,7 @@
         </div>
         <div>
           <p class="text-lg">
-            PostCSS <span class="text-sm opacity-75">v10.4.13</span>
+            Autoprefixer <span class="text-sm opacity-75">v10.4.19</span>
           </p>
 
           <ul class="list-disc ml-8">
