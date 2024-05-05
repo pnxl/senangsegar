@@ -38,11 +38,4 @@ definePageMeta({
 useHead({
   title: "Survey — Senang Segar",
 });
-
-if (
-  !useCookie("survey_esPrice").value ||
-  !useCookie("survey_smoothiePrice").value
-) {
-  navigateTo("/id/survey/pricing");
-}
 </script>
