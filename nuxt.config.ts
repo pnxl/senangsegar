@@ -28,11 +28,10 @@ export default defineNuxtConfig({
           content:
             "Senang Segar, Sekolah Dian Harapan, Daan Mogot, Senang Segar, Fresh juices, Healthy smoothies, Es Campur, Refreshing beverages, Fruit blends, Ice-cold treats, Juicy delights, Smoothie bar, Summer coolers, Tropical flavors, Nutritious drinks, Exotic refreshments, Ice-blended creations, Juice cleanse, Vibrant concoctions, Customizable drinks, Hydration station, Wholesome refreshments, Chill-out refreshments, Senang Segar, Jus segar, Smoothie sehat, Es Campur, Minuman segar, Campuran buah, Es dingin segar, Kenikmatan buah-buahan, Bar smoothie, Minuman penyegar musim panas, Rasa tropis, Minuman bergizi, Minuman eksotis, Kreasi es-blended, Pembersihan jus, Kombinasi berwarna-warni, Minuman dapat disesuaikan, Stasiun hidrasi, Minuman segar dan sehat, Minuman penyegar",
         },
-        // USING AI GENERATED FOR PLACEHOLDER - REPLACE THIS AFTER RICHARD HAS SUBMITTED PROPER DESCRIPTION
         {
           name: "description",
           content:
-            "Temukan kesegaran terbaik di Senang Segar! Nikmati pilihan jus segar, smoothie sehat, dan favorit klasik Indonesia, Es Campur. Minuman kami dibuat dengan teliti menggunakan bahan terbaik untuk memberikan Anda rasa dan vitalitas yang meledak dalam setiap tegukan. Baik Anda menginginkan campuran buah tropis atau pembersihan jus yang menyegarkan, bar smoothie kami memiliki sesuatu untuk semua orang. Kunjungi kami hari ini dan nikmati minuman penyegar sempurna!",
+            "Senang Segar terinspirasi dari produk yang ditawarkan, yaitu minuman dingin, yang dirancang untuk memberikan kesegaran dan kebahagiaan kepada konsumen. Kami ingin menyenangkan dan menyegarkan pelanggan, dengan berbagai minuman dingin seperti es campur, soda buah, dan smoothie. Strategi penjualan melibatkan penempatan stand di lokasi strategis, untuk menyegarkan para siswa saat mereka lelah setelah kegiatan fisik, sehingga mereka kembali semangat untuk belajar.",
         },
         // Control behaviour of search engine crawling + indexing
         {
@@ -58,7 +57,6 @@ export default defineNuxtConfig({
           name: "google-site-verification",
           content: "verification_token",
         },
-        // Open Graph - PLACEHOLDER
         {
           property: "og:url",
           content: "https://senangsegar.xyz",
@@ -74,7 +72,7 @@ export default defineNuxtConfig({
         {
           property: "og:description",
           content:
-            "Temukan kesegaran terbaik di Senang Segar! Nikmati pilihan jus segar, smoothie sehat, dan favorit klasik Indonesia, Es Campur. Minuman kami dibuat dengan teliti menggunakan bahan terbaik untuk memberikan Anda rasa dan vitalitas yang meledak dalam setiap tegukan. Baik Anda menginginkan campuran buah tropis atau pembersihan jus yang menyegarkan, bar smoothie kami memiliki sesuatu untuk semua orang. Kunjungi kami hari ini dan nikmati minuman penyegar sempurna!",
+            "Senang Segar terinspirasi dari produk yang ditawarkan, yaitu minuman dingin, yang dirancang untuk memberikan kesegaran dan kebahagiaan kepada konsumen. Kami ingin menyenangkan dan menyegarkan pelanggan, dengan berbagai minuman dingin seperti es campur, soda buah, dan smoothie. Strategi penjualan melibatkan penempatan stand di lokasi strategis, untuk menyegarkan para siswa saat mereka lelah setelah kegiatan fisik, sehingga mereka kembali semangat untuk belajar.",
         },
         {
           property: "og:locale",
@@ -84,7 +82,6 @@ export default defineNuxtConfig({
           property: "og:locale:alternate",
           content: "en_GB",
         },
-        // Twitter Card - PLACEHOLDER
         {
           name: "twitter:card",
           content: "summary",
@@ -100,7 +97,7 @@ export default defineNuxtConfig({
         {
           name: "twitter:description",
           content:
-            "Temukan kesegaran terbaik di Senang Segar! Nikmati pilihan jus segar, smoothie sehat, dan favorit klasik Indonesia, Es Campur. Minuman kami dibuat dengan teliti menggunakan bahan terbaik untuk memberikan Anda rasa dan vitalitas yang meledak dalam setiap tegukan. Baik Anda menginginkan campuran buah tropis atau pembersihan jus yang menyegarkan, bar smoothie kami memiliki sesuatu untuk semua orang. Kunjungi kami hari ini dan nikmati minuman penyegar sempurna!",
+            "Senang Segar terinspirasi dari produk yang ditawarkan, yaitu minuman dingin, yang dirancang untuk memberikan kesegaran dan kebahagiaan kepada konsumen. Kami ingin menyenangkan dan menyegarkan pelanggan, dengan berbagai minuman dingin seperti es campur, soda buah, dan smoothie. Strategi penjualan melibatkan penempatan stand di lokasi strategis, untuk menyegarkan para siswa saat mereka lelah setelah kegiatan fisik, sehingga mereka kembali semangat untuk belajar.",
         },
         // Disallow Pinterest users to save from site
         {

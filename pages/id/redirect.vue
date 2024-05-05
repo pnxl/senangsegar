@@ -33,4 +33,8 @@ if (!route.query.url) {
 definePageMeta({
   layout: "custom",
 });
+
+useHead({
+  title: "Mengarahkan… — Senang Segar",
+});
 </script>

@@ -651,4 +651,8 @@
 definePageMeta({
   layout: "english",
 });
+
+useHead({
+  title: "Menu — Senang Segar",
+});
 </script>

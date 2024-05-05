@@ -274,6 +274,10 @@ export default {
 </script>
 
 <script setup lang="ts">
+useHead({
+  title: "Survey — Senang Segar",
+});
+
 if (!useCookie("survey_grade").value) {
   navigateTo("/en/survey/about-you");
 } else if (useCookie("survey_finished").value) {

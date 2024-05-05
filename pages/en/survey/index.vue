@@ -38,6 +38,10 @@ definePageMeta({
   layout: "custom",
 });
 
+useHead({
+  title: "Survey — Senang Segar",
+});
+
 if (useCookie("survey_finished").value) {
   navigateTo("/id/survey/finished");
 } else if (useCookie("survey_finished").value) {

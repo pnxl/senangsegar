@@ -291,6 +291,10 @@ export default {
 <script setup lang="ts">
 import { createClient } from "@supabase/supabase-js";
 
+useHead({
+  title: "Survey — Senang Segar",
+});
+
 const config = useRuntimeConfig();
 
 if (!useCookie("survey_esInterest").value) {

@@ -640,3 +640,9 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Menu — Senang Segar",
+});
+</script>

@@ -42,3 +42,9 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Beranda — Senang Segar",
+});
+</script>

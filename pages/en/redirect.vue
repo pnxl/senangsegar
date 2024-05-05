@@ -34,4 +34,8 @@ if (!route.query.url) {
     return navigateTo(route.query.url, { external: true });
   }, 3000);
 }
+
+useHead({
+  title: "Redirecting… — Senang Segar",
+});
 </script>

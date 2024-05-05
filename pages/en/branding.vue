@@ -252,4 +252,8 @@
 definePageMeta({
   layout: "english",
 });
+
+useHead({
+  title: "Branding — Senang Segar",
+});
 </script>

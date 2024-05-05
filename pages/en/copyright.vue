@@ -152,4 +152,8 @@
 definePageMeta({
   layout: "english",
 });
+
+useHead({
+  title: "Copyright and Licenses — Senang Segar",
+});
 </script>
