@@ -250,3 +250,9 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Merek — Senang Segar",
+});
+</script>

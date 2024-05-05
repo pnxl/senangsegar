@@ -233,4 +233,8 @@ if (!useCookie("survey_sodaInterest").value) {
 } else if (useCookie("survey_finished").value) {
   navigateTo("/id/survey/finished");
 }
+
+useHead({
+  title: "Survey — Senang Segar",
+});
 </script>

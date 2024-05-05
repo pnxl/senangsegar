@@ -42,6 +42,10 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 
+useHead({
+  title: "Survey — Senang Segar",
+});
+
 onMounted(() => {
   useCookie("language").value = "en";
 });

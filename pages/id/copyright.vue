@@ -150,3 +150,10 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Hak Cipta dan Lisensi — Senang Segar",
+});
+</script>
+

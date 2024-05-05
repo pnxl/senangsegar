@@ -266,6 +266,10 @@ export default {
 </script>
 
 <script setup lang="ts">
+useHead({
+  title: "Survey — Senang Segar",
+});
+
 if (!useCookie("survey_smoothieInterest").value) {
   navigateTo("/id/survey/products-interest/smoothies");
 } else if (useCookie("survey_finished").value) {

@@ -46,4 +46,8 @@
 definePageMeta({
   layout: "english",
 });
+
+useHead({
+  title: "Home — Senang Segar",
+});
 </script>
