@@ -19,7 +19,7 @@
     </div>
     <div class="flex flex-col gap-y-8 -mt-80 pt-48" id="about-us">
       <h1
-        class="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium dark:text-brand-light"
+        class="font-display text-3xl md:text-4xl lg:text-5xl font-medium dark:text-brand-light"
       >
         About Us
       </h1>
