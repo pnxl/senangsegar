@@ -24,7 +24,7 @@
         <nuxt-link
           to="/id/#about-us"
           class="my-auto mr-4 selection:dark:text-brand-light selection:text-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter selection:hover:text-brand-darkest hover:text-brand-darkest font-medium"
-          >Tentang Kita</nuxt-link
+          >Tentang Kami</nuxt-link
         >
         <!-- <nuxt-link
           to="/id/menu"
