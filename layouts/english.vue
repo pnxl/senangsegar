@@ -67,7 +67,7 @@
         >
           <div class="flex flex-col gap-y-2">
             <nuxt-link
-              to="/en/"
+              to="/en/#main"
               class="flex selection:bg-transparent flex-row justify-start md:mb-0"
             >
               <img
