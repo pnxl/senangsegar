@@ -8,90 +8,8 @@
       </h1>
       <hr class="md:hidden dark:border-neutral-800 border-2" />
       <div class="flex flex-col gap-y-4">
-        <h1 class="text-2xl font-medium dark:text-brand-light">Favorit Kami</h1>
-
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-4 md:gap-y-4">
-          <div
-            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-b-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
-          >
-            <div class="flex flex-col h-full justify-between">
-              <div>
-                <p class="font-medium font-display text-lg">???</p>
-                <p class="opacity-75 mb-4">???</p>
-              </div>
-              <p class="text-sm">Rp ???</p>
-            </div>
-            <img
-              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
-              class="aspect-square w-24 h-24 rounded-lg"
-            />
-          </div>
-          <div
-            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-b-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
-          >
-            <div class="flex flex-col h-full justify-between">
-              <div>
-                <p class="font-medium font-display text-lg">???</p>
-                <p class="opacity-75 mb-4">???</p>
-              </div>
-              <p class="text-sm">Rp ???</p>
-            </div>
-            <img
-              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
-              class="aspect-square w-24 h-24 rounded-lg"
-            />
-          </div>
-          <div
-            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-b-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
-          >
-            <div class="flex flex-col h-full justify-between">
-              <div>
-                <p class="font-medium font-display text-lg">???</p>
-                <p class="opacity-75 mb-4">???</p>
-              </div>
-              <p class="text-sm">Rp ???</p>
-            </div>
-            <img
-              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
-              class="aspect-square w-24 h-24 rounded-lg"
-            />
-          </div>
-          <div
-            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-b-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
-          >
-            <div class="flex flex-col h-full justify-between">
-              <div>
-                <p class="font-medium font-display text-lg">???</p>
-                <p class="opacity-75 mb-4">???</p>
-              </div>
-              <p class="text-sm">Rp ???</p>
-            </div>
-            <img
-              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
-              class="aspect-square w-24 h-24 rounded-lg"
-            />
-          </div>
-          <div
-            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
-          >
-            <div class="flex flex-col h-full justify-between">
-              <div>
-                <p class="font-medium font-display text-lg">???</p>
-                <p class="opacity-75 mb-4">???</p>
-              </div>
-              <p class="text-sm">Rp ???</p>
-            </div>
-            <img
-              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
-              class="aspect-square w-24 h-24 rounded-lg"
-            />
-          </div>
-        </div>
-      </div>
-      <hr class="md:hidden dark:border-neutral-800 border-2" />
-      <div class="flex flex-col gap-y-4">
         <h1 class="text-2xl font-medium dark:text-brand-light">
-          Smoothie Menyegarkan
+          Our Favourites
         </h1>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-4 md:gap-y-4">
@@ -103,7 +21,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -118,7 +36,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -133,7 +51,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -148,7 +66,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -163,7 +81,76 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
+            </div>
+            <img
+              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
+              class="aspect-square w-24 h-24 rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+      <hr class="md:hidden dark:border-neutral-800 border-2" />
+      <div class="flex flex-col gap-y-4">
+        <h1 class="text-2xl font-medium dark:text-brand-light">
+          Refreshing Smoothies
+        </h1>
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-4 md:gap-y-4">
+          <div
+            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-b-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
+          >
+            <div class="flex flex-col h-full justify-between">
+              <div>
+                <p class="font-medium font-display text-lg">???</p>
+                <p class="opacity-75 mb-4">???</p>
+              </div>
+              <p class="text-sm">??? IDR</p>
+            </div>
+            <img
+              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
+              class="aspect-square w-24 h-24 rounded-lg"
+            />
+          </div>
+          <div
+            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-b-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
+          >
+            <div class="flex flex-col h-full justify-between">
+              <div>
+                <p class="font-medium font-display text-lg">???</p>
+                <p class="opacity-75 mb-4">???</p>
+              </div>
+              <p class="text-sm">??? IDR</p>
+            </div>
+            <img
+              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
+              class="aspect-square w-24 h-24 rounded-lg"
+            />
+          </div>
+          <div
+            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-b-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
+          >
+            <div class="flex flex-col h-full justify-between">
+              <div>
+                <p class="font-medium font-display text-lg">???</p>
+                <p class="opacity-75 mb-4">???</p>
+              </div>
+              <p class="text-sm">??? IDR</p>
+            </div>
+            <img
+              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
+              class="aspect-square w-24 h-24 rounded-lg"
+            />
+          </div>
+          <div
+            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-b-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
+          >
+            <div class="flex flex-col h-full justify-between">
+              <div>
+                <p class="font-medium font-display text-lg">???</p>
+                <p class="opacity-75 mb-4">???</p>
+              </div>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -178,7 +165,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -193,7 +180,22 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
+            </div>
+            <img
+              src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
+              class="aspect-square w-24 h-24 rounded-lg"
+            />
+          </div>
+          <div
+            class="md:p-4 py-4 md:dark:bg-neutral-800 justify-between flex flex-row dark:border-neutral-700/50 md:dark:border-neutral-700 md:border-2 border-dashed md:border-solid bg-transparent border-neutral-300/50 md:border-neutral-300 md:rounded-xl"
+          >
+            <div class="flex flex-col h-full justify-between">
+              <div>
+                <p class="font-medium font-display text-lg">???</p>
+                <p class="opacity-75 mb-4">???</p>
+              </div>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -204,7 +206,9 @@
       </div>
       <hr class="md:hidden dark:border-neutral-800 border-2" />
       <div class="flex flex-col gap-y-4">
-        <h1 class="text-2xl font-medium dark:text-brand-light">Rasa Bahagia</h1>
+        <h1 class="text-2xl font-medium dark:text-brand-light">
+          Flavour Bliss
+        </h1>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-4 md:gap-y-4">
           <div
@@ -215,7 +219,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -230,7 +234,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -245,7 +249,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -260,7 +264,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -271,7 +275,9 @@
       </div>
       <hr class="md:hidden dark:border-neutral-800 border-2" />
       <div class="flex flex-col gap-y-4">
-        <h1 class="text-2xl font-medium dark:text-brand-light">Jus Simpel</h1>
+        <h1 class="text-2xl font-medium dark:text-brand-light">
+          Simple Juices
+        </h1>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-4 md:gap-y-4">
           <div
@@ -282,7 +288,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -297,7 +303,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -312,7 +318,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -327,7 +333,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -342,7 +348,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -357,7 +363,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -372,7 +378,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -387,7 +393,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -402,7 +408,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -417,7 +423,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -432,7 +438,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -447,7 +453,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -458,7 +464,7 @@
       </div>
       <hr class="md:hidden dark:border-neutral-800 border-2" />
       <div class="flex flex-col gap-y-4">
-        <h1 class="text-2xl font-medium dark:text-brand-light">Soda Buah</h1>
+        <h1 class="text-2xl font-medium dark:text-brand-light">Fruit Sodas</h1>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-4 md:gap-y-4">
           <div
@@ -469,7 +475,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -484,7 +490,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -499,7 +505,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -514,7 +520,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -529,7 +535,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -544,7 +550,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -559,7 +565,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -574,7 +580,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -598,7 +604,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -613,7 +619,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -628,7 +634,7 @@
                 <p class="font-medium font-display text-lg">???</p>
                 <p class="opacity-75 mb-4">???</p>
               </div>
-              <p class="text-sm">Rp ???</p>
+              <p class="text-sm">??? IDR</p>
             </div>
             <img
               src="https://static.wikia.nocookie.net/mario/images/0/05/QuestionBlock3DWorld.png"
@@ -640,3 +646,9 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: "english",
+});
+</script>
