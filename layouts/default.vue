@@ -17,21 +17,21 @@
           Senang Segar
         </h1>
       </nuxt-link>
-      <!-- <div
+      <div
         class="flex flex-row gap-x-8 md:my-auto text-base justify-center md:justify-start"
       >
         <nuxt-link
           to="/id/#about-us"
-          class="my-auto selection:dark:text-brand-light selection:text-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter selection:hover:text-brand-darkest hover:text-brand-darkest font-medium"
-          >About Us</nuxt-link
+          class="my-auto mr-4 selection:dark:text-brand-light selection:text-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter selection:hover:text-brand-darkest hover:text-brand-darkest font-medium"
+          >Tentang Kita</nuxt-link
         >
-        <nuxt-link
+        <!-- <nuxt-link
           to="/id/menu"
           class="dark:bg-brand-darkest text-center sm:text-left bg-brand-light selection:dark:text-brand-light dark:text-brand-light dark:hover:bg-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter hover:bg-brand-light selection:hover:text-brand-darkest hover:text-brand-darkest py-2 px-4 rounded-full font-medium"
         >
           <p>Menu</p>
-        </nuxt-link>
-      </div> -->
+        </nuxt-link> -->
+      </div>
     </header>
     <div ref="target" class="md:mt-16 sm:mt-12 mt-8">
       <div

@@ -22,7 +22,7 @@
       >
         <nuxt-link
           to="/en/#about-us"
-          class="my-auto selection:dark:text-brand-light selection:text-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter selection:hover:text-brand-darkest hover:text-brand-darkest font-medium"
+          class="my-auto mr-4 selection:dark:text-brand-light selection:text-brand-darker selection:dark:hover:text-brand-lighter dark:hover:text-brand-lighter selection:hover:text-brand-darkest hover:text-brand-darkest font-medium"
           >About Us</nuxt-link
         >
         <!-- <nuxt-link
