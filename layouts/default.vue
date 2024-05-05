@@ -5,7 +5,7 @@
   >
     <header
       ref="header"
-      class="sticky z-50 selection:bg-transparent md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 flex md:flex-row flex-col p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
+      class="sticky z-50 selection:bg-transparent md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 flex md:flex-row flex-col md:p-4 pb-2 pt-3 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
     >
       <nuxt-link
         to="/id/#main"
