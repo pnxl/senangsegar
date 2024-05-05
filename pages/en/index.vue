@@ -11,7 +11,7 @@
         those hot summers!
       </p>
       <nuxt-link
-        to="/menu"
+        to="/en/menu"
         class="dark:bg-brand-darkest bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light/50 hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
       >
         <p>See the menu</p>
