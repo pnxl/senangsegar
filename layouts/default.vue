@@ -5,7 +5,7 @@
   >
     <header
       ref="header"
-      class="sticky z-50 selection:bg-transparent md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 flex md:flex-row flex-col p-4 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
+      class="sticky z-50 selection:bg-transparent md:top-16 sm:top-12 top-8 md:mx-24 lg:mx-32 2xl:mx-48 sm:mx-12 mx-8 flex md:flex-row flex-col md:p-4 pb-2 pt-3 rounded-[2.5rem] justify-between text-sm bg-neutral-50/60 backdrop-blur-lg border-2 border-neutral-300 dark:border-neutral-700 text-brand-darker dark:bg-neutral-800/75 dark:text-brand-light"
     >
       <nuxt-link
         to="/id/#main"
@@ -56,7 +56,7 @@
             siap melayani Anda.
           </h2>
           <nuxt-link
-            to="/menu"
+            to="/id/menu"
             class="dark:bg-brand-darker bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 text-center sm:text-left sm:w-fit h-fit my-auto rounded-full font-medium"
           >
             <p>Lihat Menu</p>
@@ -67,8 +67,8 @@
         >
           <div class="flex flex-col gap-y-2">
             <nuxt-link
-              to="/id/"
-              class="flex flex-row selection:bg-transparent justify-center md:justify-start mb-4 md:mb-0"
+              to="/id/#main"
+              class="flex flex-row selection:bg-transparent justify-start md:mb-0"
             >
               <img
                 src="/branding/senangsegar-mascot-cici-default.svg"
