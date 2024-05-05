@@ -238,6 +238,19 @@
           </label>
         </div>
       </div>
+      <div
+        class="flex flex-col gap-y-4"
+        v-if="
+          useCookie('survey_sodaInterest').value === 'Tidak' &&
+          useCookie('survey_smoothieInterest').value === 'Tidak' &&
+          useCookie('survey_esInterest').value === 'Tidak'
+        "
+      >
+        <p class="text-lg md:w-1/2 dark:text-brand-dark">
+          You weren't interested in any of our products, so click the button
+          below to submit!
+        </p>
+      </div>
       <button
         @click="
           useCookie('survey_smoothiePrice').value = smoothiePrice;
@@ -269,7 +282,6 @@
 
           navigateTo('/en/survey/finished');
         "
-        v-if="smoothiePrice !== '' && esPrice !== ''"
         class="dark:bg-brand-darkest bg-brand-light dark:text-brand-light dark:hover:bg-brand-darker dark:hover:text-brand-lighter hover:bg-brand-light/50 hover:text-brand-darkest py-4 px-12 w-fit rounded-full font-medium"
       >
         <p>Submit Survey</p>
