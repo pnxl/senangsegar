@@ -56,7 +56,7 @@
             siap melayani Anda.
           </h2>
           <nuxt-link
-            to="/menu"
+            to="/id/menu"
             class="dark:bg-brand-darker bg-brand-lighter dark:text-brand-light dark:hover:bg-brand-darker/50 dark:hover:text-brand-lighter hover:bg-brand-lightest hover:text-brand-darkest py-4 px-12 text-center sm:text-left sm:w-fit h-fit my-auto rounded-full font-medium"
           >
             <p>Lihat Menu</p>
