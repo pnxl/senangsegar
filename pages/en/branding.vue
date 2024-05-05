@@ -75,19 +75,19 @@
             class="p-6 sm:p-6 md:p-8 border-2 aspect-square relative w-fit border-neutral-300 dark:border-neutral-700 bg-[url(https://assets-global.website-files.com/6257adef93867e50d84d30e2/625950f8da1880cda1a94346_bg-w.png)] dark:bg-[url(https://assets-global.website-files.com/6257adef93867e50d84d30e2/62594f6abf11bb058da52ecb_bg.png)] rounded-xl"
           >
             <img
-              src="@/assets/branding/logo.png"
+              src="@/assets/branding/happy.png"
               class="aspect-square lg:h-48 h-32"
             />
             <div class="absolute bottom-2 right-2 flex gap-x-3">
               <a
                 class="shadow-xl dark:hover:text-brand-lightest hover:text-brand-darkest"
-                href="/branding/senangsegar-mascot-default-1024.png"
+                href="/branding/senangsegar-mascot-happy-1024.png"
                 download
                 >.png</a
               >
               <a
                 class="shadow-xl dark:hover:text-brand-lightest hover:text-brand-darkest"
-                href="/branding/senangsegar-mascot-default.svg"
+                href="/branding/senangsegar-mascot-happy.svg"
                 download
                 >.svg</a
               >
