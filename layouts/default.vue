@@ -67,8 +67,8 @@
         >
           <div class="flex flex-col gap-y-2">
             <nuxt-link
-              to="/id/"
-              class="flex flex-row selection:bg-transparent justify-center md:justify-start mb-4 md:mb-0"
+              to="/id/#main"
+              class="flex flex-row selection:bg-transparent justify-start md:mb-0"
             >
               <img
                 src="/branding/senangsegar-mascot-cici-default.svg"
