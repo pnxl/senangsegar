@@ -23,7 +23,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        display: "Grandstander",
+        display: ["Grandstander", "Grandstander Variable"],
       },
       colors: {
         brand: {
