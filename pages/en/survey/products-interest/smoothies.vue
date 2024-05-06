@@ -281,6 +281,6 @@ useHead({
 if (!useCookie("survey_grade").value) {
   navigateTo("/en/survey/about-you");
 } else if (useCookie("survey_finished").value) {
-  navigateTo("/id/survey/finished");
+  navigateTo("/en/survey/finished");
 }
 </script>

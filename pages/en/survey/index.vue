@@ -43,8 +43,8 @@ useHead({
 });
 
 if (useCookie("survey_finished").value) {
-  navigateTo("/id/survey/finished");
+  navigateTo("/en/survey/finished");
 } else if (useCookie("survey_finished").value) {
-  navigateTo("/id/survey/finished");
+  navigateTo("/en/survey/finished");
 }
 </script>

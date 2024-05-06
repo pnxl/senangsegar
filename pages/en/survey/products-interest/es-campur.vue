@@ -233,6 +233,6 @@ useHead({
 if (!useCookie("survey_sodaInterest").value) {
   navigateTo("/en/survey/products-interest/fruit-soda");
 } else if (useCookie("survey_finished").value) {
-  navigateTo("/id/survey/finished");
+  navigateTo("/en/survey/finished");
 }
 </script>
