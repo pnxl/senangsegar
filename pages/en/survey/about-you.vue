@@ -224,6 +224,6 @@ useHead({
 if (!useCookie("survey_started").value) {
   navigateTo("/en/survey/");
 } else if (useCookie("survey_finished").value) {
-  navigateTo("/id/survey/finished");
+  navigateTo("/en/survey/finished");
 }
 </script>
