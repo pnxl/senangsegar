@@ -52,8 +52,8 @@
           <h2
             class="font-medium text-xl sm:text-2xl sm:w-1/2 dark:text-brand-lightest text-brand-darkest"
           >
-            Whether it's a filling meal or a cold dessert, we're ready to serve
-            you.
+            Need something refreshing to cool you down? Look no further; we're
+            ready to serve you!
           </h2>
           <nuxt-link
             to="/en/menu"
