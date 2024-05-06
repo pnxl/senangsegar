@@ -271,8 +271,8 @@ useHead({
 });
 
 if (!useCookie("survey_smoothieInterest").value) {
-  navigateTo("/id/survey/products-interest/smoothies");
+  navigateTo("/en/survey/products-interest/smoothies");
 } else if (useCookie("survey_finished").value) {
-  navigateTo("/id/survey/finished");
+  navigateTo("/en/survey/finished");
 }
 </script>
