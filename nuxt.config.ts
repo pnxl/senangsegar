@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["nuxt-icon"],
+  modules: ["nuxt-icon", "@nuxtjs/sitemap"],
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     layoutTransition: { name: "layout", mode: "out-in" },
@@ -160,5 +160,9 @@ export default defineNuxtConfig({
       databaseUrl: "",
       anonymousApikey: "",
     },
+  },
+  sitemap: {
+    // exclude all URLs that start with /survey
+    exclude: ["/en/survey/**", "/en/redirect", "/id/survey/**", "/id/redirect"],
   },
 });
