@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /en/redirect
+Disallow: /en/survey/*
+Disallow: /id/redirect
+Disallow: /id/survey/*
