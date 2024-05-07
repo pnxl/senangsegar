@@ -84,6 +84,16 @@
         </div>
         <div>
           <p class="text-lg">
+            nuxt-simple-robots <span class="text-sm opacity-75">v4.0.0-rc.17</span>
+          </p>
+
+          <ul class="list-disc ml-8">
+            <li>Licensed under The MIT License</li>
+            <li>Copyright © 2022-present Harlan Wilton</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-lg">
             Tailwind CSS <span class="text-sm opacity-75">v3.2.4</span>
           </p>
 
