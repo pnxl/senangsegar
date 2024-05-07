@@ -3,3 +3,4 @@ Disallow: /en/redirect
 Disallow: /en/survey/*
 Disallow: /id/redirect
 Disallow: /id/survey/*
+Sitemap: /sitemap.xml
