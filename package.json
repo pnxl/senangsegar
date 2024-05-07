@@ -17,6 +17,7 @@
   "dependencies": {
     "@fontsource-variable/grandstander": "^5.0.21",
     "@fontsource-variable/montserrat": "^5.0.19",
+    "@nuxtjs/sitemap": "^5.1.5",
     "@supabase/supabase-js": "^2.43.1"
   }
 }
