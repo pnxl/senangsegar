@@ -78,6 +78,16 @@
         </div>
         <div>
           <p class="text-lg">
+            @nuxtjs/sitemap <span class="text-sm opacity-75">v5.1.5</span>
+          </p>
+
+          <ul class="list-disc ml-8">
+            <li>Berlisensi di bawah Lisensi MIT</li>
+            <li>Hak Cipta © 2022-sekarang Harlan Wilton</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-lg">
             Tailwind CSS <span class="text-sm opacity-75">v3.4.3</span>
           </p>
 

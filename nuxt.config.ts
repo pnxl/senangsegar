@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["nuxt-icon", "@nuxtjs/sitemap"],
+  modules: ["nuxt-icon", "@nuxtjs/sitemap", "nuxt-simple-robots"],
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     layoutTransition: { name: "layout", mode: "out-in" },

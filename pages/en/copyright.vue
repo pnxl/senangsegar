@@ -69,7 +69,17 @@
 
           <ul class="list-disc ml-8">
             <li>Licensed under The MIT License</li>
-            <li>Copyright © 2016-sekarang - Nuxt Team</li>
+            <li>Copyright © 2016-present - Nuxt Team</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-lg">
+            @nuxtjs/sitemap <span class="text-sm opacity-75">v5.1.5</span>
+          </p>
+
+          <ul class="list-disc ml-8">
+            <li>Licensed under The MIT License</li>
+            <li>Copyright © 2022-present Harlan Wilton</li>
           </ul>
         </div>
         <div>
