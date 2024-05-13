@@ -4,12 +4,11 @@
       <h1
         class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium md:w-3/4 dark:text-brand-light"
       >
-        Kamu sudah selesai!
+        Terima kasih atas minat Anda pada survei kami!
       </h1>
       <p class="text-lg md:w-3/4 dark:text-brand-dark">
-        Terima kasih telah meluangkan waktu untuk mengisi formulir ini. Hasil
-        dari ini survei ini akan menentukan menu, harga, dan faktor penting
-        tentang bisnis kami.
+        Sayangnya, survei kami telah ditutup - sampai jumpa pada tanggal 21 di
+        stand smoothie kami!
       </p>
       <nuxt-link
         to="/id/"

@@ -4,12 +4,11 @@
       <h1
         class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium md:w-3/4 dark:text-brand-light"
       >
-        You're done!
+        Thanks for your interest in our survey!
       </h1>
       <p class="text-lg md:w-3/4 dark:text-brand-dark">
-        Thank you for taking the time to fill out this form. The results of this
-        survey will decide our menus, prices, and crucial aspects about our
-        business.
+        Unfortunately, our survey has been closed - we'll see you on the 21st
+        for our smoothie stand!
       </p>
       <nuxt-link
         to="/en/"
