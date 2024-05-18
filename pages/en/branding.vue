@@ -10,7 +10,7 @@
         <p>
           The Senang Segar brand belongs to Fang Industries, inc., the company
           that guides and supports development of Senang Segar. These guidelines
-          describe when and how the elementary brand should be used.
+          describe when and how the brand should be used.
         </p>
 
         <p>
@@ -235,8 +235,8 @@
         </p>
 
         <p>
-          For further information regarding the use of the elementary name,
-          branding, and trademarks, please email
+          For further information regarding the use of the name, branding, and
+          trademarks, please email
           <a
             class="hover:underline dark:hover:text-brand-lightest hover:text-brand-darkest"
             href="mailto:brand@senangsegar.xyz"

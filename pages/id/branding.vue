@@ -10,7 +10,7 @@
         <p>
           Merek Senang Segar adalah milik Fang Industries, inc., perusahaan yang
           memandu dan mendukung pengembangan Senang Segar. Pedoman ini
-          menjelaskan kapan dan bagaimana merek dasar harus digunakan.
+          menjelaskan kapan dan bagaimana merek kami digunakan.
         </p>
 
         <p>
